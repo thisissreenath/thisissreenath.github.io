@@ -28,7 +28,6 @@ We began the day by engaging in open conversations and encouraging the children 
 
 <img width="300px" class="rounded float-start pe-4" src="../img/4.JPG">
 <img width="300px" class="rounded float-start pe-4" src="../img/5.JPG">
-<img width="300px" class="rounded float-start pe-4" src="../img/9.JPG">
 
 
 
