@@ -62,5 +62,5 @@ This experience reinforced the belief that as students, we hold a significant re
 <img class="img-fluid" src="../img/8.JPG">
 
 
-In conclusion, the orphanage visit at Amrita School of Engineering was not just a day spent with children; it was a manifestation of our commitment to social responsibility. It served as a reminder that we, as individuals and as a community, have the power to uplift and inspire, creating a positive ripple effect that extends far beyond the confines of our academic institution.
+In conclusion, the orphanage visit was not just a day spent with children; it was a manifestation of our commitment to social responsibility. It served as a reminder that we, as individuals and as a community, have the power to uplift and inspire, creating a positive ripple effect that extends far beyond the confines of our academic institution.
 
