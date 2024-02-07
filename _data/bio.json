@@ -1,113 +1,160 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "name": "Sreenath Krishnan Potty",
+    "label": "Master of Science in Electrical Engineering",
+    "picture": "https://github.com/thisissreenath.png",
+    "email": "thisissreenath@gmail.com",
+    "phone": "540-558-5835",
+    "website": "https://thisissreenath.github.io",
+    "summary": "",
+    "location": { "address": "110 Northview Drive", "postalCode": "24060", "city": "Blacksburg", "countryCode": "USA", "region": "Virginia" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "linkedin", "username": "Sreenath Krishnan Potty", "url": "http://linkedin.com/in/sreenath-k" },
+      { "network": "instagram", "username": "Sreenath K", "url": "http://instagram.com/sreenaaaath" }
     ]
   },
-  "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+ "interests": [
+    { "name": "Electrical Engineering" },
+    { "name": "Semiconductor Processing and Fabrication" },
+    { "name": "Project Management" },
+    { "name": "Manufacturing" },
+    { "name": "Technology" }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "name": "Tools and Language",
+      "keywords": [ "Ansys Q3D", "AutoCAD", "Cadence Virtuoso", "LTSpice", "C", "Python" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Soft Skills",
+      "keywords": [ "Planning and Organization", "Problem-Solving", "Analytical Thinking", "Project Management", "Teamwork", "Leadership"]
     }
   ],
-  "education": [
+ "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "institution": "Virginia Polytechnic Institute and State University, VA",
+      "area": "Electrical Engineering (expected Spring, 2024)",
+      "studyType": "M.S.",
       "endDate": "Present",
-      "courses": [
+      "gpa": "3.2/4.0",
+      "courses": [ "MEMS Fabrication to Application", "Principles of Electronics Packaging", "Analog IC Design", "Machine Learning", "Engineering Program and Project Management", "Data Analytics"
       ]
-    }
-  ],
-  "work": [
+    },
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "institution": "Amrita Vishwa Vidyapeetham, India",
+      "area": "Electronics and Communication Engineering",
+      "studyType": "B.Tech.",
+      "endDate": "2021-05",
+      "gpa": "7.18/10",
+      "courses": ["Digital Circuit Design", "Computational Thinking and Problem-Solving", "VLSI Design"]
+    },
+  ],
+   "work": [
+    {
+      "company": "Virginia Polytechnic Institute and State University",
+      "position": "Course Project - MEMS Fabricated Continuous Sweat Glucose Monitor",
       "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "startDate": "2023-01",
+      "endDate": "2023-05",
+      "summary": "Worked in an interdisciplinary team of 3 engineers. Explored the possibility of an enzyme-immobilized sweat sensor for continuous glucose monitoring. Contributions included experimenting with semiconductor manufacturing techniques like lithography, masking, Deposition, and etching.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Semiconductor Processing",
+        "MEMS Fabrication",
+        "Photolithography",
+        "Deposition",
+        "Etching"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "Virginia Polytechnic Institute and State University",
+      "position": "Course Project - Embedded Package Design of a 100V GaN HEMT Device for EV Applications",
+      "website": "",
+      "startDate": "2023-01",
+      "endDate": "2023-05",
+      "summary": "Worked in an interdisciplinary team of 4 engineers. Engineered and tested a package for state-of-the-art GaN HEMT for EV application. Contributions included material selection for insulators and designing a 4-layer standard stack-up thermal PCB design to increase reliability.",
+      "highlights": [
+        "Electronics Packaging",
+        "Thermal Design",
+        "Electrical Analysis",
+        "PCB Design",
+        "Pull and Shear Test"
+      ]
+    },
+    {
+     "company": "Smart IOPS Research Center",
+      "position": "Intern",
+      "website": "https://smartiops.com/",
+      "startDate": "2021-08-15",
+      "endDate": "2022-03-31",
+      "summary": "Worked in a team of electrical, computer, and electronics engineers to develop a new Smart Cluster Management Software. Contributions included designing a program to retrieve real-time CPU and network usage for server applications using C-programming in Cent OS, a Linux environment.",
+      "highlights": [
+        "C Programming",
+        "Cent OS",
+        "Weekly Meeting",
+        "Project Reports",
+        "Presentations"
+      ]
+    },
+    {
+      "company": "Amrita Vishwa Vidyapeetham",
+      "position": "Project - Piezo-Tribo Nanogenerator (PTNG) for Powering Wearable Gadgets",
+      "website": "",
+      "startDate": "2020-01",
+      "endDate": "2021-05",
+      "summary": "Led an interdisciplinary team of 5 students to conduct a research study to develop and engineer a shoe-sole-embedded flexible nanogenerator to power wearable gadgets. Contributions included overseeing the team, organizing and dividing tasks, progress meetings, documentation, and presentations. Earned special mention from the university for innovation and was proposed for government funding.",
+      "highlights": [ "Energy harvesting",
+        "Piezoelectricity",
+        "Documentation",
+        "Project Reports",
+        "Presentations"]
+    },
+  ],
+ "volunteer": [
+   {
+     "position": "Presentation",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Third International Conference on Material Science and Manufacturing Technology - Optimizing Structures and Materials for Footwear-based Piezoelectric Nanogenerator, 2021",
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
+      "position": "Leadership",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Project - Piezo-Tribo Nanogenerator (PTNG) for Powering Wearable Gadgets, 2020-2021",
+        "Student Publicity Group - VIDYUT, 2019-2020",
+      ]
+    },
+    {
+      "position": "Organizer",
+      "summary": "",
+      "highlights": [
+        "Student Social Responsibility - Orphanage Visit, 2019",
+        "Technical Workshops, Events, and Competitions - VIDYUT, 2019",
+      ]
+    },
+    {
+      "position": "Volunteer",
+      "summary": "",
+      "highlights": [
+        "Amrita Cube Open - World Cube Association, 2020",
+        "Beach Cleanup Drive, Amala Bharatam Campaign, 2018",
+        "Pamba Cleanup Drive - AYUDH, 2017"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Funding",
+      "date": "2021",
+      "awarder": "Kerala State Council for Science, Technology and Environment (KSCSTE)",
+      "summary": "Project - Flexible Piezo Tribo Nanogenerator (PTNG) for Powering Wearable Gadgets."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Sharing and Caring",
+      "date": "2016-2017",
+      "awarder": "Amrita Vidyalayam",
+      "summary": ""
     }
   ],
   "references": [
@@ -116,3 +163,7 @@
     }
   ]
 }
+
+
+
+
