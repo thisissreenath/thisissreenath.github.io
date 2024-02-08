@@ -12,7 +12,7 @@ labels:
   - 
 ---
 
-<body style="padding-left: 7%; padding-right: 7%;">
+<body>
     <div>
         <img style="width:100%;" src="../img/1.JPG">
     </div>
