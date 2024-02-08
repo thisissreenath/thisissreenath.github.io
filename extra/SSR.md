@@ -49,7 +49,7 @@ labels:
     </div>
     <div style="display: flex; padding-top: 15px;">
       <img style="width: 300px;" src="../img/13.JPG" alt="">
-       <img style="width: 300px; padding-right: 20px;" src="../img/9.JPG" alt="">
+       <img style="width: 300px; padding-left:20px; padding-right: 20px;" src="../img/9.JPG" alt="">
         <p>Others harbored dreams of excelling in sports and athletics.
              Understanding the significance of physical activity for their 
              holistic development, we equipped them with sports gear and 
@@ -68,7 +68,7 @@ labels:
     </div>
     <div style="display: flex; padding-top: 15px;">
       <img style="width: 300px;" src="../img/10.JPG" alt="">
-       <img style="width: 300px; padding-right: 20px;" src="../img/12.JPG" alt="">
+       <img style="width: 300px; padding-left:20px; padding-right: 20px;" src="../img/12.JPG" alt="">
         <p>A special lunch provided an opportunity for us to sit down with the children,
              fostering a sense of community and shared experiences. As we enjoyed the 
              meal together, we listened to their stories, offered guidance, and provided 
