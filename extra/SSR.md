@@ -45,15 +45,16 @@ labels:
               of knowledge for their journey ahead.
         </p>
       <img style="width: 300px; padding-left:20px; padding-right: 20px;" src="../img/4.JPG" alt="">
-        <img style="width: 300px; " src="../img/5.JPG" alt="">
+        <img style="width: 300px; " src="../img/14.JPG" alt="">
     </div>
     <div style="display: flex; padding-top: 15px;">
+      <img style="width: 300px;" src="../img/13.JPG" alt="">
        <img style="width: 300px; padding-right: 20px;" src="../img/9.JPG" alt="">
         <p>Others harbored dreams of excelling in sports and athletics.
              Understanding the significance of physical activity for their 
              holistic development, we equipped them with sports gear and 
              equipment. The joy on their faces as they held a basketball 
-             or swinging a tennis racket for the first time was truly priceless.
+             or swung a tennis racket for the first time was truly priceless.
         </p>
     </div>
     <div style="display: flex; padding-top: 15px;">
@@ -63,9 +64,11 @@ labels:
               impart not just knowledge but a sense of belief in their potential.
        </p>
        <img style="width: 300px; padding-left:20px; padding-right: 20px;" src="../img/6.JPG" alt="">
+      <img style="width: 300px; " src="../img/11.JPG" alt="">
     </div>
     <div style="display: flex; padding-top: 15px;">
-      <img style="width: 300px; padding-right: 20px;" src="../img/10.JPG" alt="">
+      <img style="width: 300px;" src="../img/10.JPG" alt="">
+       <img style="width: 300px; padding-right: 20px;" src="../img/12.JPG" alt="">
         <p>A special lunch provided an opportunity for us to sit down with the children,
              fostering a sense of community and shared experiences. As we enjoyed the 
              meal together, we listened to their stories, offered guidance, and provided 
