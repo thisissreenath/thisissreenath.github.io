@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/mems1.png
+image: img/UI.png
 title: "Rental Forecasting Tool"
 date: 2024
 published: true
