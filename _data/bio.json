@@ -39,7 +39,7 @@
     {
       "institution": "Virginia Polytechnic Institute and State University, VA",
       "area": "Electrical Engineering",
-      "studyType": "M.S.",
+      "studyType": "Master of Science",
       "endDate": "2024-05",
       "gpa": "3.48/4.0",
       "courses": [ "Analog IC Design, MEMS Fabrication to Application, Principles of Electronics Packaging, Machine Learning, Data Analytics, Engineering Program and Project Management"
@@ -48,7 +48,7 @@
     {
       "institution": "Amrita Vishwa Vidyapeetham, India",
       "area": "Electronics and Communication Engineering",
-      "studyType": "B.Tech.",
+      "studyType": "Bachelor of Technology",
       "endDate": "2021-05",
       "gpa": "7.18/10",
       "courses": ["Digital Circuits and Systems, VLSI Design, Principles of VLSI Testing, Linear Integrated Circuits, Electronic Circuits, Optimization Techniques, Calculus"]
@@ -61,7 +61,7 @@
       "website": "",
       "startDate": "2024-01",
       "endDate": "2024-05",
-      "summary": "WAs part of a collaborative team project at Virginia Tech, I developed a Rental Forecasting Tool designed to predict rental demand and dynamic pricing for various rental properties. Utilized advanced statistical methods and data analysis tools to derive accurate rental cost equations and forecast models. Collaborated with a multidisciplinary team to ensure timely project delivery.",
+      "summary": "Was part of a collaborative team project at Virginia Tech, I developed a Rental Forecasting Tool designed to predict rental demand and dynamic pricing for various rental properties. Utilized advanced statistical methods and data analysis tools to derive accurate rental cost equations and forecast models. Collaborated with a multidisciplinary team to ensure timely project delivery.",
       "highlights": [
         "Project Management",
         "Software Project Management",
