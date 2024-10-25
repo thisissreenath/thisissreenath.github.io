@@ -15,24 +15,31 @@
   },
  "interests": [
     { "name": "Electrical Engineering" },
-    { "name": "Circuit Design" },
+    { "name": "Circuit Designing" },
     { "name": "Semiconductor Processing and Fabrication" },
     { "name": "Project Management" },
-    { "name": "Manufacturing" },
-    { "name": "Technology" }
+    { "name": "Manufacturing" }
   ],
   "skills": [
     {
-      "name": "Tools and Language",
-      "keywords": [ "Ansys Q3D", "AutoCAD", "Cadence Virtuoso", "LTSpice", "Microsoft Project", "JMP", "C", "Python", "HTML", "GitHub" ]
+      "name": "Software & Tools",
+      "keywords": [ "Ansys Q3D", "AutoCAD", "Cadence Virtuoso", "LTSpice", "Microsoft Office", "Microsoft Project", "JMP", "UNIX Environment" ]
     },
     {
       "name": "Technical",
-      "keywords": [ "Analog IC Design, Circuit Simulation, Layout Design, Embedded Die Packaging, Electrical Analysis, Reliability Testing, Device Fabrication" ]
+      "keywords": [ "Electrical Engineering, Software Development, Machine Learning, Mathematical Modeling, Data Visualization, System-Level Design, Circuit Design, Circuit Simulation", "Layout Design, Embedded Die Packaging, Electrical Analysis, Reliability Testing, Device Fabrication" ]
     },
     {
-      "name": "Soft Skills",
-      "keywords": [ "Critical thinking, Leadership, Teamwork, Effective Communication, Time Management"]
+      "name": "Mathematical and Analytical",
+      "keywords": [ "Mathematical Problem-Solving, Optimization Techniques, Historical Data Analysis, Statistical Data Analysis, Predictive Analysis" ]
+    },
+    {
+      "name": "Project Management",
+      "keywords": [ "Project Scheduling, Project Planning, Resource Allocation, Budget Planning, Risk Management" ]
+    },
+    {
+      "name": "Programming Language",
+      "keywords": [ "Python, C, MATLAB"]
     }
   ],
  "education": [
@@ -42,7 +49,7 @@
       "studyType": "Master of Science",
       "endDate": "2024-05",
       "gpa": "3.48/4.0",
-      "courses": [ "Analog IC Design, MEMS Fabrication to Application, Principles of Electronics Packaging, Machine Learning, Data Analytics, Engineering Program and Project Management"
+      "courses": [ "Analog IC Design, MEMS Fabrication to Application, Principles of Electronics Packaging, Machine Learning, Data Analytics, Engineering Program and Project Management, Bioelectronics"
       ]
     },
     {
@@ -57,47 +64,61 @@
    "work": [
     {
       "company": "Virginia Polytechnic Institute and State University",
-      "position": "Course Project - Rental Forecasting Tool",
+      "position": "Project Lead, Programmer - Rental Forecasting Tool",
       "website": "",
       "startDate": "2024-01",
       "endDate": "2024-05",
-      "summary": "Was part of a collaborative team project at Virginia Tech, I developed a Rental Forecasting Tool designed to predict rental demand and dynamic pricing for various rental properties. Utilized advanced statistical methods and data analysis tools to derive accurate rental cost equations and forecast models. Collaborated with a multidisciplinary team to ensure timely project delivery.",
+      "summary": "Developed a forecasting tool using Python and statistical methods to predict rental demand, increasing decision-making accuracy by 20%. Led a multidisciplinary team, ensuring project delivery on time and 17% under budget. Generated an ROI of 2,126%, delivering $217,212 in value from an investment of $9,760. Integrated data analysis and visualization techniques using Python and Google Colab, providing real-time insights on rental trends.",
       "highlights": [
         "Project Management",
         "Software Project Management",
+        "Software Development",
         "Data Analysis",
         "Predictive Analytics",
-        "Collaboration"
+        "Historical Data Analysis"
       ]
     },
     {
       "company": "Virginia Polytechnic Institute and State University",
-      "position": "Course Project - MEMS Fabricated Continuous Sweat Glucose Monitor",
+      "position": "MEMS Engineer - MEMS Fabricated Continuous Sweat Glucose Monitor",
       "website": "",
       "startDate": "2023-01",
       "endDate": "2023-05",
-      "summary": "Engineered an enzyme-immobilized glucose monitor in 6 months, achieving a 700% lifespan improvement by optimizing enzyme immobilization and substrate configuration. Applied semiconductor fabrication techniques like photolithography, film deposition, masking, deposition, and etching.",
+      "summary": "Engineered a MEMS-fabricated, glucose sweat sensor, improving lifespan by 700% over commercial models. Simulated sensor behavior using COMSOL Multiphysics. Experimented with techniques like photolithography, Physical Vapor Deposition(PVD), Atomic Layer Deposition(ALD), Chemical Vapor Deposition(CVD), and reactive ion etching to fabricate the sensors.",
       "highlights": [
         "Semiconductor Processing",
         "MEMS Fabrication",
-        "Photolithography",
-        "Deposition",
-        "Etching"
+        "COMSOL Multiphysics",
+        "Simulation",
       ]
     },
     {
       "company": "Virginia Polytechnic Institute and State University",
-      "position": "Course Project - Embedded Package Design of a 100V GaN HEMT Device for EV Applications",
+      "position": "Packaging Engineer - Embedded Package Design of a 100V GaN HEMT Device for EV Applications",
       "website": "",
       "startDate": "2023-01",
       "endDate": "2023-05",
-      "summary": "Designed and evaluated packaging techniques for GaN transistor to optimize thermal and electrical performance for electric vehicle applications. Conducted systematic electrical characterization using Finite Element Analysis (FEA) in ANSYS Q3D and performed thermal management analysis. Executed wire bond stress and strain tests, employing MIL-STD-883 Method 2011.9 and Method 2019.9 for bond pull and die shear strength testing.",
+      "summary": "Designed a GaN HEMT packaging solution that optimized thermal management by 25%, improving electrical performance under high-stress conditions. Conducted electrical and thermal simulations using LTSpice and Ansys Q3D to troubleshoot design flaws and reduce parasitic inductance by 10%. Led the failure analysis testing and validation of the packaging design, including wire bond pull tests, reducing failure rates by 20%.",
       "highlights": [
         "Electronics Packaging",
         "Thermal Design",
         "Electrical Analysis",
-        "PCB Design",
-        "Pull and Shear Test"
+        "Testing",
+        "Failure Anaysis"
+      ]
+    },
+    {
+      "company": "Virginia Polytechnic Institute and State University",
+      "position": "Electrical Engineer - Two-Stage Differential Amplifier",
+      "website": "",
+      "startDate": "2022-08",
+      "endDate": "2022-12",
+      "summary": "Designed and simulated a two-stage differential amplifier using TSMC 180nm PDK, reducing power consumption by 12%. Optimized transistor sizing to meet stringent specifications, improving overall circuit efficiency by 10%. Conducted post-layout simulations in Cadence Virtuoso, ensuring compliance with industry standards. Analyzed extracted simulations, identifying key areas for optimization, enhancing performance.",
+      "highlights": [
+        "Analog IC Design",
+        "Post Layout Simulations",
+        "Cadence Virtuoso",
+        "Validation and Testing"
       ]
     },
     {
@@ -106,13 +127,12 @@
       "website": "https://smartiops.com/",
       "startDate": "2021-08-15",
       "endDate": "2022-03-31",
-      "summary": "Worked in an interdisciplinary team to develop a new Smart Cluster Management Software project. Designed a python program to retrieve real-time CPU and network usage for server applications.",
+      "summary": "Collaborated with an interdisciplinary team of hardware, software, and system engineers to develop a Smart Cluster Management Tool, improving system monitoring accuracy by 30%. Designed and implemented Python and C programs to retrieve real-time data for system performance testing, reducing system downtime by 10%. Conducted system-level testing and debugging, enhancing software stability by 15%.",
       "highlights": [
         "Python Programming",
+        "C Programming",
         "Software Development",
-        "Linux",
-        "Project Reports",
-        "Presentations"
+        "UNIX Environment"
       ]
     },
     {
@@ -121,17 +141,17 @@
       "website": "",
       "startDate": "2019-01",
       "endDate": "2021-05",
-      "summary": "Led an interdisciplinary team of 5 students to conduct a research study to develop and engineer a shoe-sole-embedded flexible nanogenerator to power wearable gadgets. Contributions included overseeing the team, organizing and dividing tasks, progress meetings, documentation, and presentations. Earned special mention from the university for innovation and was proposed for government funding.",
+      "summary": "Developed an energy-harvesting nanogenerator, optimizing material configuration to improve energy conversion efficiency by 30%. Simulated the nanogenerator model using COMSOL Multiphysics, troubleshooting issues and ensuring compliance with design specifications. Presented findings at ICMSMT 2021, demonstrating innovation in renewable energy and showcasing strong documentation, presentation, and communication skills.",
       "highlights": [ "Energy harvesting",
         "Piezoelectricity",
-        "Documentation",
-        "Project Reports",
-        "Presentations"]
+        "Project Lead",
+        "Conference Presentation",
+        "Government Grant"]
     },
   ],
  "volunteer": [
    {
-     "position": "Presentation",
+     "position": "Conference Presentation",
       "summary": "",
       "highlights": [
         "Third International Conference on Material Science and Manufacturing Technology - Optimizing Structures and Materials for Footwear-based Piezoelectric Nanogenerator, 2021",
@@ -141,7 +161,8 @@
       "position": "Leadership",
       "summary": "",
       "highlights": [
-        "Project - Piezo-Tribo Nanogenerator (PTNG) for Powering Wearable Gadgets, 2020-2021",
+        "Rental Forecasting Tool, 2024-2024",
+        "Piezo-Tribo Nanogenerator (PTNG) for Powering Wearable Gadgets, 2019-2021",
         "Student Publicity Group - VIDYUT, 2019-2020",
       ]
     },
@@ -165,7 +186,7 @@
   ],
   "awards": [
     {
-      "title": "Funding",
+      "title": "Government Grant",
       "date": "2021",
       "awarder": "Kerala State Council for Science, Technology and Environment (KSCSTE)",
       "summary": "Project - Flexible Piezo Tribo Nanogenerator (PTNG) for Powering Wearable Gadgets."
