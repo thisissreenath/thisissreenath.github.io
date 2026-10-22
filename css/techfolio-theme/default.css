@@ -38,3 +38,16 @@ a {
   background-color: var(--bs-white);
   border-top: none;
 }
+
+
+/* Portfolio refresh: readable sections and anchored navigation. */
+html { scroll-behavior: smooth; }
+section[id], div[id] { scroll-margin-top: 5rem; }
+#experience { background-color: var(--bs-gray-100); }
+#skills { background-color: var(--bs-gray-100); }
+#experience .card, #skills .card { border-radius: 0.75rem; }
+#about p { max-width: 60rem; }
+@media (max-width: 575.98px) {
+  #about h1 { font-size: 2rem; }
+  .navbar-brand { font-size: 1rem; }
+}
