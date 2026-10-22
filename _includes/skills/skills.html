@@ -1,0 +1,22 @@
+<section class="py-5" id="skills" aria-labelledby="skills-heading">
+  <div class="container">
+    <h2 class="display-6 fw-semibold mb-2" id="skills-heading">Technical Skills</h2>
+    <p class="text-muted mb-4">Engineering methods, laboratory skills, and analysis tools.</p>
+    <div class="row g-3">
+      {% for group in site.data.bio.skills %}
+      <div class="col-md-6 col-xl-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body p-4">
+            <h3 class="h5 mb-3">{{ group.name }}</h3>
+            <div class="d-flex flex-wrap gap-2">
+              {% for skill in group.keywords %}
+              <span class="badge bg-light text-dark border fw-normal p-2">{{ skill }}</span>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
