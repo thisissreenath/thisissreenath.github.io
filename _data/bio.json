@@ -118,11 +118,11 @@
       "website": "https://cpes.vt.edu/",
       "startDate": "2026-08",
       "endDate": "Present",
-      "summary": "Promoted from Laboratory Assistant while continuing experimental research in power electronics packaging, dielectric insulation, and encapsulation. Added responsibilities for laboratory tours and training new students.",
+      "summary": "Promoted from Laboratory Assistant while continuing hands-on research in power electronics packaging, dielectric insulation, and encapsulation; expanded responsibilities to student training and laboratory tours.",
       "highlights": [
-        "Continue high-voltage insulation and partial discharge testing, encapsulation process evaluation, and experimental data analysis.",
-        "Train new students in encapsulation preparation and processing procedures and electrical testing methods.",
-        "Conduct laboratory tours and introduce visitors to laboratory equipment, research activities, and testing workflows."
+        "Continue partial discharge and dielectric insulation testing, materials processing, and experimental data analysis for power electronics packaging research.",
+        "Train incoming students in encapsulation workflows, including specimen preparation, vacuum degassing, curing, and electrical testing procedures.",
+        "Conduct laboratory tours, explaining research activities, equipment, and experimental workflows to visitors."
       ]
     },
     {
@@ -131,11 +131,13 @@
       "website": "https://cpes.vt.edu/",
       "startDate": "2024-11",
       "endDate": "2026-08",
-      "summary": "Supported ongoing laboratory research in power electronics packaging, dielectric insulation, and encapsulation, including hands-on specimen preparation, testing, data collection, and documentation.",
+      "summary": "Conducted laboratory fabrication, insulation testing, and experimental analysis for power electronics packaging research.",
       "highlights": [
-        "Prepared test samples and assisted with laboratory fabrication and materials processing.",
-        "Supported electrical insulation testing, data collection, and experiment documentation.",
-        "Assisted with test setup and the development of repeatable laboratory procedures."
+        "Performed high-voltage partial discharge and dielectric strength testing using OMICRON MPD600 and Phoenix dielectric test equipment, analyzing inception, extinction, and breakdown behavior.",
+        "Prepared encapsulation specimens through material mixing, vacuum degassing, mold preparation, and controlled thermal curing.",
+        "Developed MATLAB-based workflows to record and analyze electrical testing and process measurements; used design-of-experiments and Weibull methods in reliability analysis.",
+        "Designed and fabricated a low-cost 3D-printed dielectric test fixture to support repeatable laboratory testing.",
+        "Documented experimental procedures and process conditions to improve consistency and traceability across testing batches."
       ]
     },
     {
