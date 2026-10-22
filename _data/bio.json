@@ -1,55 +1,103 @@
 {
   "basics": {
     "name": "Sreenath Krishnan Potty",
-    "label": "Master of Science in Electrical Engineering, Bachelor of Technology in Electronics and Communications Engineering",
+    "label": "Electrical Engineer | Power Electronics Packaging | Reliability & Semiconductor Research",
     "picture": "https://github.com/thisissreenath.png",
     "email": "thisissreenath@gmail.com",
     "phone": "540-558-5835",
     "website": "https://thisissreenath.github.io",
-    "summary": "",
-    "location": { "address": "110 Northview Drive", "postalCode": "24060", "city": "Blacksburg", "countryCode": "USA", "region": "Virginia" },
+    "summary": "Electrical engineer with a master's degree from Virginia Tech and hands-on research experience in power electronics packaging, electrical insulation evaluation, partial discharge testing, and materials characterization. My work combines experimental testing, engineering analysis, and process development to support reliable electronic systems. My interests include semiconductor technologies, advanced manufacturing, and engineering project management.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Arlington",
+      "countryCode": "USA",
+      "region": "Virginia"
+    },
     "profiles": [
-      { "network": "linkedin", "username": "Sreenath Krishnan Potty", "url": "http://linkedin.com/in/sreenath-k" },
-      { "network": "instagram", "username": "Sreenath K", "url": "http://instagram.com/sreenaaaath" }
+      {
+        "network": "linkedin",
+        "username": "Sreenath Krishnan Potty",
+        "url": "https://linkedin.com/in/sreenath-k"
+      },
+      {
+        "network": "github",
+        "username": "thisissreenath",
+        "url": "https://github.com/thisissreenath"
+      },
+      {
+        "network": "instagram",
+        "username": "Sreenath K",
+        "url": "https://instagram.com/sreenaaaath"
+      }
     ]
   },
- "interests": [
-    { "name": "Electrical Engineering" },
-    { "name": "Circuit Designing" },
-    { "name": "Semiconductor Processing and Fabrication" },
-    { "name": "Project Management" },
-    { "name": "Manufacturing" }
+  "interests": [
+    {
+      "name": "Power Electronics and Packaging"
+    },
+    {
+      "name": "Dielectric Insulation and Reliability"
+    },
+    {
+      "name": "Semiconductor Processing and Fabrication"
+    },
+    {
+      "name": "Experimental Research and Data Analysis"
+    },
+    {
+      "name": "Engineering Project Management"
+    }
   ],
   "skills": [
     {
       "name": "Software & Tools",
-      "keywords": [ "Ansys Q3D", "AutoCAD", "Cadence Virtuoso", "LTSpice", "Microsoft Office", "Microsoft Project", "JMP", "UNIX Environment" ]
+      "keywords": [
+        "Ansys Q3D",
+        "AutoCAD",
+        "Cadence Virtuoso",
+        "LTSpice",
+        "Microsoft Office",
+        "Microsoft Project",
+        "JMP",
+        "UNIX Environment"
+      ]
     },
     {
       "name": "Technical",
-      "keywords": [ "Electrical Engineering, Software Development, Machine Learning, Mathematical Modeling, Data Visualization, System-Level Design, Circuit Design, Circuit Simulation", "Layout Design, Embedded Die Packaging, Electrical Analysis, Reliability Testing, Device Fabrication" ]
+      "keywords": [
+        "Electrical Engineering, Software Development, Machine Learning, Mathematical Modeling, Data Visualization, System-Level Design, Circuit Design, Circuit Simulation",
+        "Layout Design, Embedded Die Packaging, Electrical Analysis, Reliability Testing, Device Fabrication"
+      ]
     },
     {
       "name": "Mathematical and Analytical",
-      "keywords": [ "Mathematical Problem-Solving, Optimization Techniques, Historical Data Analysis, Statistical Data Analysis, Predictive Analysis" ]
+      "keywords": [
+        "Mathematical Problem-Solving, Optimization Techniques, Historical Data Analysis, Statistical Data Analysis, Predictive Analysis"
+      ]
     },
     {
       "name": "Project Management",
-      "keywords": [ "Project Scheduling, Project Planning, Resource Allocation, Budget Planning, Risk Management" ]
+      "keywords": [
+        "Project Scheduling, Project Planning, Resource Allocation, Budget Planning, Risk Management"
+      ]
     },
     {
       "name": "Programming Language",
-      "keywords": [ "Python, C, MATLAB"]
+      "keywords": [
+        "Python, C, MATLAB"
+      ]
     }
   ],
- "education": [
+  "education": [
     {
       "institution": "Virginia Polytechnic Institute and State University, VA",
       "area": "Electrical Engineering",
       "studyType": "Master of Science",
       "endDate": "2024-05",
       "gpa": "3.48/4.0",
-      "courses": [ "Analog IC Design, MEMS Fabrication to Application, Principles of Electronics Packaging, Machine Learning, Data Analytics, Engineering Program and Project Management, Bioelectronics"
+      "courses": [
+        "Analog IC Design, MEMS Fabrication to Application, Principles of Electronics Packaging, Machine Learning, Data Analytics, Engineering Program and Project Management, Bioelectronics"
       ]
     },
     {
@@ -58,10 +106,12 @@
       "studyType": "Bachelor of Technology",
       "endDate": "2021-05",
       "gpa": "7.18/10",
-      "courses": ["Digital Circuits and Systems, VLSI Design, Principles of VLSI Testing, Linear Integrated Circuits, Electronic Circuits, Optimization Techniques, Calculus"]
-    },
+      "courses": [
+        "Digital Circuits and Systems, VLSI Design, Principles of VLSI Testing, Linear Integrated Circuits, Electronic Circuits, Optimization Techniques, Calculus"
+      ]
+    }
   ],
-   "work": [
+  "work": [
     {
       "company": "Virginia Polytechnic Institute and State University",
       "position": "Project Lead, Programmer - Rental Forecasting Tool",
@@ -89,7 +139,7 @@
         "Semiconductor Processing",
         "MEMS Fabrication",
         "COMSOL Multiphysics",
-        "Simulation",
+        "Simulation"
       ]
     },
     {
@@ -122,7 +172,7 @@
       ]
     },
     {
-     "company": "Smart IOPS Research Center",
+      "company": "Smart IOPS Research Center",
       "position": "Intern",
       "website": "https://smartiops.com/",
       "startDate": "2021-08-15",
@@ -142,19 +192,21 @@
       "startDate": "2019-01",
       "endDate": "2021-05",
       "summary": "Developed an energy-harvesting nanogenerator, optimizing material configuration to improve energy conversion efficiency by 30%. Simulated the nanogenerator model using COMSOL Multiphysics, troubleshooting issues and ensuring compliance with design specifications. Presented findings at ICMSMT 2021, demonstrating innovation in renewable energy and showcasing strong documentation, presentation, and communication skills.",
-      "highlights": [ "Energy harvesting",
+      "highlights": [
+        "Energy harvesting",
         "Piezoelectricity",
         "Project Lead",
         "Conference Presentation",
-        "Government Grant"]
-    },
+        "Government Grant"
+      ]
+    }
   ],
- "volunteer": [
-   {
-     "position": "Conference Presentation",
+  "volunteer": [
+    {
+      "position": "Conference Presentation",
       "summary": "",
       "highlights": [
-        "Third International Conference on Material Science and Manufacturing Technology - Optimizing Structures and Materials for Footwear-based Piezoelectric Nanogenerator, 2021",
+        "Third International Conference on Material Science and Manufacturing Technology - Optimizing Structures and Materials for Footwear-based Piezoelectric Nanogenerator, 2021"
       ]
     },
     {
@@ -163,7 +215,7 @@
       "highlights": [
         "Rental Forecasting Tool, 2024-2024",
         "Piezo-Tribo Nanogenerator (PTNG) for Powering Wearable Gadgets, 2019-2021",
-        "Student Publicity Group - VIDYUT, 2019-2020",
+        "Student Publicity Group - VIDYUT, 2019-2020"
       ]
     },
     {
@@ -171,7 +223,7 @@
       "summary": "",
       "highlights": [
         "Student Social Responsibility - Orphanage Visit, 2019",
-        "Technical Workshops, Events, and Competitions - VIDYUT, 2019",
+        "Technical Workshops, Events, and Competitions - VIDYUT, 2019"
       ]
     },
     {
@@ -204,7 +256,3 @@
     }
   ]
 }
-
-
-
-
