@@ -1,12 +1,18 @@
-<header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}">{{ site.data.bio.basics.name }}</a>
-    <div class="ms-auto">
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <a class="nav-link" href="{{ '/#projects' | prepend: site.baseurl }}">Projects</a>
-        <a class="nav-link" href="{{ '/#essays' | prepend: site.baseurl }}">Essays</a>
-        <a class="nav-link" href="{{ '/resume.html' | prepend: site.baseurl }}">Resume</a>
+<header class="navbar navbar-expand-lg navbar-light bg-light bg-gradient border-bottom sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-semibold" href="{{ '/' | relative_url }}">Sreenath K. Potty</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-nav" aria-controls="portfolio-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <nav class="collapse navbar-collapse" id="portfolio-nav" aria-label="Primary navigation">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="{{ '/#about' | relative_url }}">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ '/#experience' | relative_url }}">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ '/#projects' | relative_url }}">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ '/#skills' | relative_url }}">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ '/#essays' | relative_url }}">Certifications</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ '/resume.html' | relative_url }}">Résumé</a></li>
       </ul>
-    </div>
+    </nav>
   </div>
 </header>
