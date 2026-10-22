@@ -51,41 +51,60 @@
   ],
   "skills": [
     {
-      "name": "Software & Tools",
+      "name": "Power Electronics & Packaging",
       "keywords": [
+        "Power Electronics Packaging",
+        "GaN Device Packaging",
+        "Electrical Insulation Characterization",
+        "Encapsulation",
+        "Thermal Design"
+      ]
+    },
+    {
+      "name": "Testing & Reliability",
+      "keywords": [
+        "High-Voltage Testing",
+        "Partial Discharge Testing",
+        "Dielectric Strength Testing",
+        "Design of Experiments",
+        "Weibull Analysis",
+        "Experimental Data Analysis"
+      ]
+    },
+    {
+      "name": "Fabrication & Materials Processing",
+      "keywords": [
+        "MEMS Fabrication",
+        "Photolithography",
+        "Thin-Film Deposition",
+        "Reactive Ion Etching",
+        "Vacuum Degassing",
+        "Thermal Curing"
+      ]
+    },
+    {
+      "name": "Programming & Engineering Software",
+      "keywords": [
+        "MATLAB",
+        "Python",
+        "C",
         "Ansys Q3D",
-        "AutoCAD",
+        "LTspice",
         "Cadence Virtuoso",
-        "LTSpice",
-        "Microsoft Office",
-        "Microsoft Project",
+        "COMSOL Multiphysics",
         "JMP",
-        "UNIX Environment"
+        "AutoCAD"
       ]
     },
     {
-      "name": "Technical",
+      "name": "Engineering & Project Management",
       "keywords": [
-        "Electrical Engineering, Software Development, Machine Learning, Mathematical Modeling, Data Visualization, System-Level Design, Circuit Design, Circuit Simulation",
-        "Layout Design, Embedded Die Packaging, Electrical Analysis, Reliability Testing, Device Fabrication"
-      ]
-    },
-    {
-      "name": "Mathematical and Analytical",
-      "keywords": [
-        "Mathematical Problem-Solving, Optimization Techniques, Historical Data Analysis, Statistical Data Analysis, Predictive Analysis"
-      ]
-    },
-    {
-      "name": "Project Management",
-      "keywords": [
-        "Project Scheduling, Project Planning, Resource Allocation, Budget Planning, Risk Management"
-      ]
-    },
-    {
-      "name": "Programming Language",
-      "keywords": [
-        "Python, C, MATLAB"
+        "Technical Documentation",
+        "Process Improvement",
+        "Experimental Planning",
+        "Project Scheduling",
+        "Student Training",
+        "Team Leadership"
       ]
     }
   ],
@@ -123,7 +142,8 @@
         "Continue partial discharge and dielectric insulation testing, materials processing, and experimental data analysis for power electronics packaging research.",
         "Train incoming students in encapsulation workflows, including specimen preparation, vacuum degassing, curing, and electrical testing procedures.",
         "Conduct laboratory tours, explaining research activities, equipment, and experimental workflows to visitors."
-      ]
+      ],
+      "category": "professional"
     },
     {
       "company": "Center for Power Electronics Systems (CPES), Virginia Tech",
@@ -138,7 +158,8 @@
         "Developed MATLAB-based workflows to record and analyze electrical testing and process measurements; used design-of-experiments and Weibull methods in reliability analysis.",
         "Designed and fabricated a low-cost 3D-printed dielectric test fixture to support repeatable laboratory testing.",
         "Documented experimental procedures and process conditions to improve consistency and traceability across testing batches."
-      ]
+      ],
+      "category": "professional"
     },
     {
       "company": "Virginia Polytechnic Institute and State University",
@@ -211,7 +232,8 @@
         "C Programming",
         "Software Development",
         "UNIX Environment"
-      ]
+      ],
+      "category": "professional"
     },
     {
       "company": "Amrita Vishwa Vidyapeetham",
