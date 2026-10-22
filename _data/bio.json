@@ -113,6 +113,32 @@
   ],
   "work": [
     {
+      "company": "Center for Power Electronics Systems (CPES), Virginia Tech",
+      "position": "Laboratory Associate",
+      "website": "https://cpes.vt.edu/",
+      "startDate": "2026-08",
+      "endDate": "Present",
+      "summary": "Contribute to laboratory research on power electronics packaging, dielectric insulation, materials characterization, and experimental reliability evaluation.",
+      "highlights": [
+        "Conduct high-voltage insulation and partial discharge testing.",
+        "Evaluate encapsulation materials and related preparation and curing processes.",
+        "Analyze experimental measurements and support repeatable testing procedures."
+      ]
+    },
+    {
+      "company": "Center for Power Electronics Systems (CPES), Virginia Tech",
+      "position": "Laboratory Assistant",
+      "website": "https://cpes.vt.edu/",
+      "startDate": "2024-11",
+      "endDate": "2026-08",
+      "summary": "Supported laboratory experiments and specimen preparation for power electronics packaging and insulation studies.",
+      "highlights": [
+        "Prepared test samples and assisted with laboratory fabrication and materials processing.",
+        "Supported electrical insulation testing, data collection, and experiment documentation.",
+        "Assisted with test setup and the development of repeatable laboratory procedures."
+      ]
+    },
+    {
       "company": "Virginia Polytechnic Institute and State University",
       "position": "Project Lead, Programmer - Rental Forecasting Tool",
       "website": "",
