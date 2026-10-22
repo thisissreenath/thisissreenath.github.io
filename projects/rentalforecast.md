@@ -2,26 +2,35 @@
 layout: project
 type: project
 image: img/UI.png
-title: "Rental Forecasting Tool"
+title: "Rental Forecasting and Decision-Support Tool"
 date: 2024
 published: true
 labels:
+  - Python
+  - Data Analytics
   - Project Management
-  - Software Project Management
-  - Data Analysis
-  - Predictive Analysis
-summary: " A software that takes historical data for short-term, mid-term, and long-term housing rentals and forecasts projected occupancy rates and potential profit for each rental option as well as recommend dynamic pricing."
+summary: "Team-developed forecasting tool using historical rental data to examine demand, occupancy, revenue potential, and pricing decisions for different rental durations."
 ---
 
-<img class="img-fluid" src="../img/UI.png">
+<img class="img-fluid mb-3" src="{{ '/img/UI.png' | relative_url }}" alt="Rental forecasting tool interface">
 
-As part of a collaborative team project at Virginia Tech, I developed a Rental Forecasting Tool designed to predict rental demand and dynamic pricing for various rental properties. This project was sponsored by Black Dog Estates and aimed to support their business expansion in short-term, mid-term, and long-term rentals.
+## Overview
 
-Project Highlights:
+As part of an engineering project management course at Virginia Tech, our team developed a rental forecasting and decision-support tool for **Black Dog Estates**. The project considered short-, medium-, and long-term rental options and aimed to make historical data more useful for planning and pricing decisions.
 
-Predictive Analytics:     Utilized advanced statistical methods to forecast occupancy rates and potential profits.
-Dynamic Pricing:          Developed algorithms to recommend optimal rental pricing based on historical data.
-User-Friendly Interface:  Ensured an intuitive and accessible user interface to display forecast data and pricing recommendations.
-Collaboration:            Worked closely with a multidisciplinary team to ensure project delivery met stakeholder expectations and project goals.
+## My contributions
 
-Source: <a href="rentalforecast.pdf">Rental Forecasting Tool</a>
+- Led project coordination and contributed to the **Python-based forecasting workflow**.
+- Worked with historical rental information to develop data-processing, visualization, and demand-forecasting capabilities.
+- Helped evaluate occupancy and potential revenue scenarios across rental categories.
+- Contributed to the tool's interface, project documentation, and communication of results.
+
+## Methods and tools
+
+Python · Data processing · Forecasting · Data visualization · Project scheduling · Stakeholder coordination
+
+## What this work demonstrates
+
+The combination of software development and practical project management: defining requirements, collaborating across a team, and presenting data-driven findings for business decisions.
+
+**Project report:** [Rental Forecasting Tool](rentalforecast.pdf)
