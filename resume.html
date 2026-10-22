@@ -1,245 +1,90 @@
 ---
-title: Resume
+title: Résumé
 layout: home
 ---
 
-<div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
-  <div class="container">
-
-    <div class="row">
-      <div class="col">
-        <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col">
-        {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
-        {% capture label %}{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}{% endcapture %}
-        <p class="mb-1">{% include about/social.html url=url name='house' label=label %} </p>
-
-        {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
-        {% capture label %}{{ site.data.bio.basics.email }}{% endcapture %}
-        <p class="mb-1">{% include about/social.html url=url name='envelope' label=label %}</p>
-
+<main class="container py-5" id="resume">
+  <div class="row align-items-start mb-4">
+    <div class="col-md-8">
+      <h1 class="display-5 fw-bold mb-2">{{ site.data.bio.basics.name }}</h1>
+      <p class="lead mb-2">{{ site.data.bio.basics.label }}</p>
+      <p class="text-muted mb-2">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }}</p>
+      <p class="mb-0">
+        <a href="mailto:{{ site.data.bio.basics.email }}">Email</a>
         {% for profile in site.data.bio.basics.profiles %}
-          {% capture url %}{{ profile.url }}{% endcapture %}
-          {% capture name %}{{ profile.network | downcase }}{% endcapture %}
-          {% capture label %}{{ profile.username }}{% endcapture %}
-          <p class="mb-1">{% include about/social.html url=url name=name label=label %}</p>
+        {% unless profile.network == 'instagram' %}
+          <span aria-hidden="true"> · </span><a href="{{ profile.url }}" target="_blank" rel="noopener noreferrer">{{ profile.network | capitalize }}</a>
+        {% endunless %}
         {% endfor %}
-      </div>
-      <div class="col">
-        <p class="mb-1 text-end">{{ site.data.bio.basics.location.address }}</p>
-        <p class="mb-1 text-end">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }} {{ site.data.bio.basics.location.countryCode }}</p>
-        <p class="mb-1 text-end">{{ site.data.bio.basics.phone }}</p>
-      </div>
+      </p>
     </div>
-
-    <div class="row pt-4 align-items-center">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Interests</h1>
-      </div>
-      <div class="col-lg-9">
-        <p class="m-0">
-          {% for entry in site.data.bio.interests %}
-          {{ entry.name }}
-          <!-- Unfortunately the following must all be on a single line so that there are no spaces before the commas. -->
-          {% if entry.keywords and entry.keywords.size > 0 %}({% for keyword in entry.keywords %}{{ keyword }}{% if forloop.last != true %},{% endif %}{% endfor %}){% endif %}{% if forloop.last != true %}, {% endif %}
-          {% endfor %}
-        </p>
-      </div>
-    </div>
-
-    {% if site.data.bio.skills %}
-    <div class="row pt-4 align-items-center">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Skills</h1>
-      </div>
-      <div class="col-lg-9">
-        {% for entry in site.data.bio.skills %}
-          <p class="m-0">
-            <b>{{ entry.name }}:</b>
-              {% for keyword in entry.keywords %}
-                {{ keyword }}{% if forloop.last != true %}, {% endif %}
-              {% endfor %}
-          </p>
-        {% endfor %}
-      </div>
-    </div>
-    {% endif %}
-
-    {% if site.data.bio.education %}
-    <div class="row pt-4 align-items-start">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Education</h1>
-      </div>
-      <div class="col-lg-9">
-        {% for entry in site.data.bio.education %}
-          <div class="row mb-3">
-            <div class="col-9">
-              <p class="m-0"><b>{{ entry.institution }}</b></p>
-              <p class="m-0">{{ entry.studyType }}, {{ entry.area }}</p>
-              {% if entry.courses %}
-                <ul>
-                  {% for course in entry.courses %}
-                    <li>{{ course }}</li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </div>
-          <div class="col-3">
-            <p class="m-0 text-end">
-              {% if entry.startDate %}
-                {{ entry.startDate | slice: 0,4 }}
-              {% endif %}
-              {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
-              -
-              {% endif %}
-              {% if entry.endDate %}
-                {% if entry.endDate != "Present" %}
-                  {{ entry.endDate | slice: 0,4 }}
-                {% else %}
-                  {{ entry.endDate }}
-                {% endif %}
-              {% endif %}
-            </p>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-    {% endif %}
-
-    {% if site.data.bio.work %}
-    <div class="row pt-4 align-items-start">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Work</h1>
-      </div>
-      <div class="col-lg-9">
-        {% for entry in site.data.bio.work %}
-          <div class="row mb-3">
-            <div class="col-9">
-              <p class="mb-0"><b>{{ entry.position }}, {{ entry.company }}</b></p>
-              <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
-              <p class="mb-0">{{ entry.summary }}</p>
-              {% if entry.highlights %}
-                <ul>
-                  {% for highlight in entry.highlights %}
-                    <li>{{ highlight }}</li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </div>
-            <div class="col-3">
-              <p class="m-0 text-end">
-                {% if entry.startDate %}
-                  {{ entry.startDate | slice: 0,4 }}
-                {% endif %}
-                {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
-                -
-                {% endif %}
-                {% if entry.endDate %}
-                {% if entry.endDate != "Present" %}
-                  {{ entry.endDate | slice: 0,4 }}
-                {% else %}
-                  {{ entry.endDate }}
-                {% endif %}
-              {% endif %}
-              </p>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-    {% endif %}
-
-    {% if site.data.bio.volunteer %}
-      <div class="row pt-4 align-items-start">
-        <div class="col-lg-3">
-          <h1 class="display-6 text-start m-0">Activities</h1>
-        </div>
-        <div class="col-lg-9">
-          {% for entry in site.data.bio.volunteer %}
-          <div class="row mb-3">
-            <div class="col-9">
-              <p class="mb-0"><b>{{ entry.position }}{% if entry.organization %}, {{ entry.organization }}{% endif %}</b></p>
-              <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
-              <p class="mb-0">{{ entry.summary }}</p>
-              {% if entry.highlights %}
-                <ul>
-                {% for highlight in entry.highlights %}
-                  <li>{{ highlight }}</li>
-                {% endfor %}
-              </ul>
-              {% endif %}
-            </div>
-            <div class="col-3">
-              <p class="m-0 text-end">
-                {% if entry.startDate %}
-                  {{ entry.startDate | slice: 0,4 }}
-                {% endif %}
-                {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
-                -
-                {% endif %}
-                {% if entry.endDate %}
-                  {% if entry.endDate != "Present" %}
-                    {{ entry.endDate | slice: 0,4 }}
-                  {% else %}
-                    {{ entry.endDate }}
-                  {% endif %}
-                {% endif %}
-              </p>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    {% endif %}
-
-    {% if site.data.bio.awards %}
-    <div class="row pt-4 align-items-start">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Awards</h1>
-      </div>
-
-      <div class="col-lg-9">
-      {% for entry in site.data.bio.awards %}
-        <div class="row mb-3">
-          <div class="col-9">
-            <p class="mb-0">
-              <b>{{ entry.title }}</b>, {{ entry.awarder }}
-            </p>
-            <p class="mb-0">{{ entry.summary }}</p>
-          </div>
-          <div class="col-3">
-            <p class="m-0 text-end">
-              {{ entry.date}}
-            </p>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-    {% endif %}
-
-    {% if site.data.bio.references %}
-    <div class="row pt-4 align-items-center">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">References</h1>
-      </div>
-
-      <div class="col-lg-9">
-        <p class="m-0">
-          {% for entry in site.data.bio.references %}
-            {{ entry.name }}
-            {% if entry.reference and entry.reference.size > 0 %}
-              <em>{{ entry.reference }}</em>
-            {% endif %}
-          {% endfor %}
-        </p>
-      </div>
-    </div>
-    {% endif %}
   </div>
-</div>
+
+  <section class="mb-5" aria-labelledby="resume-summary">
+    <h2 class="h3 border-bottom pb-2" id="resume-summary">Professional Profile</h2>
+    <p>{{ site.data.bio.basics.summary }}</p>
+  </section>
+
+  <section class="mb-5" aria-labelledby="resume-experience">
+    <h2 class="h3 border-bottom pb-2" id="resume-experience">Professional Experience</h2>
+    {% for role in site.data.bio.work %}
+    <article class="mb-4">
+      <div class="d-flex flex-column flex-md-row justify-content-between gap-1">
+        <h3 class="h5 mb-1">{{ role.position }} — {{ role.company }}</h3>
+        <span class="text-muted text-nowrap">{{ role.startDate | slice: 0,7 }} – {% if role.endDate == 'Present' %}Present{% else %}{{ role.endDate | slice: 0,7 }}{% endif %}</span>
+      </div>
+      <p class="mb-2">{{ role.summary }}</p>
+      {% if role.highlights %}
+      <ul>{% for item in role.highlights %}<li>{{ item }}</li>{% endfor %}</ul>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </section>
+
+  <section class="mb-5" aria-labelledby="resume-education">
+    <h2 class="h3 border-bottom pb-2" id="resume-education">Education</h2>
+    {% for entry in site.data.bio.education %}
+      <article class="mb-3">
+        <div class="d-flex flex-column flex-md-row justify-content-between gap-1">
+          <h3 class="h5 mb-1">{{ entry.studyType }} in {{ entry.area }}</h3>
+          <span class="text-muted">{{ entry.endDate }}</span>
+        </div>
+        <p class="mb-1">{{ entry.institution }}</p>
+        {% if entry.courses %}<p class="small text-muted">Relevant coursework: {{ entry.courses | join: ', ' }}</p>{% endif %}
+      </article>
+    {% endfor %}
+  </section>
+
+  <section class="mb-5" aria-labelledby="resume-skills">
+    <h2 class="h3 border-bottom pb-2" id="resume-skills">Technical Skills</h2>
+    {% for group in site.data.bio.skills %}
+      <p class="mb-2"><strong>{{ group.name }}:</strong> {{ group.keywords | join: ', ' }}</p>
+    {% endfor %}
+  </section>
+
+  <section class="mb-5" aria-labelledby="resume-projects">
+    <h2 class="h3 border-bottom pb-2" id="resume-projects">Selected Research &amp; Academic Projects</h2>
+    <p>Explore research contributions and academic work in the <a href="{{ '/#projects' | relative_url }}">project section</a> or <a href="{{ '/projects/' | relative_url }}">complete project archive</a>.</p>
+    <ul>
+      {% assign selected_projects = site.pages | where: "type", "project" | sort: "date" | reverse %}
+      {% for project in selected_projects limit: 7 %}
+      <li class="mb-2"><a href="{{ project.url | relative_url }}">{{ project.title }}</a> — {{ project.summary }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="mb-5" aria-labelledby="resume-certifications">
+    <h2 class="h3 border-bottom pb-2" id="resume-certifications">Certificates &amp; Training</h2>
+    {% assign certificates = site.pages | where: "type", "essay" | sort: "date" | reverse %}
+    <ul>
+      {% for certificate in certificates %}
+      <li><a href="{{ certificate.url | relative_url }}">{{ certificate.title }}</a> ({{ certificate.date | date: '%Y' }})</li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="mb-4" aria-labelledby="resume-service">
+    <h2 class="h3 border-bottom pb-2" id="resume-service">Leadership &amp; Community Engagement</h2>
+    <p>Student leadership, community outreach, and volunteer activities are detailed in <a href="{{ '/#extra' | relative_url }}">Community Engagement</a>.</p>
+  </section>
+</main>
