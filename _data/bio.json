@@ -4,7 +4,7 @@
     "label": "Electrical Engineer | Power Electronics Packaging | Reliability & Semiconductor Research",
     "picture": "https://github.com/thisissreenath.png",
     "email": "thisissreenath@gmail.com",
-    "phone": "540-558-5835",
+    "phone": "",
     "website": "https://thisissreenath.github.io",
     "summary": "Electrical engineer with a master's degree from Virginia Tech and hands-on research experience in power electronics packaging, electrical insulation evaluation, partial discharge testing, and materials characterization. My work combines experimental testing, engineering analysis, and process development to support reliable electronic systems. My interests include semiconductor technologies, advanced manufacturing, and engineering project management.",
     "location": {
@@ -116,7 +116,13 @@
       "endDate": "2024-05",
       "gpa": "3.48/4.0",
       "courses": [
-        "Analog IC Design, MEMS Fabrication to Application, Principles of Electronics Packaging, Machine Learning, Data Analytics, Engineering Program and Project Management, Bioelectronics"
+        "Analog IC Design",
+        "MEMS Fabrication to Application",
+        "Principles of Electronics Packaging",
+        "Machine Learning",
+        "Data Analytics",
+        "Engineering Program and Project Management",
+        "Bioelectronics"
       ]
     },
     {
@@ -126,7 +132,13 @@
       "endDate": "2021-05",
       "gpa": "7.18/10",
       "courses": [
-        "Digital Circuits and Systems, VLSI Design, Principles of VLSI Testing, Linear Integrated Circuits, Electronic Circuits, Optimization Techniques, Calculus"
+        "Digital Circuits and Systems",
+        "VLSI Design",
+        "Principles of VLSI Testing",
+        "Linear Integrated Circuits",
+        "Electronic Circuits",
+        "Optimization Techniques",
+        "Calculus"
       ]
     }
   ],
@@ -162,65 +174,6 @@
       "category": "professional"
     },
     {
-      "company": "Virginia Polytechnic Institute and State University",
-      "position": "Project Lead, Programmer - Rental Forecasting Tool",
-      "website": "",
-      "startDate": "2024-01",
-      "endDate": "2024-05",
-      "summary": "Developed a forecasting tool using Python and statistical methods to predict rental demand, increasing decision-making accuracy by 20%. Led a multidisciplinary team, ensuring project delivery on time and 17% under budget. Generated an ROI of 2,126%, delivering $217,212 in value from an investment of $9,760. Integrated data analysis and visualization techniques using Python and Google Colab, providing real-time insights on rental trends.",
-      "highlights": [
-        "Project Management",
-        "Software Project Management",
-        "Software Development",
-        "Data Analysis",
-        "Predictive Analytics",
-        "Historical Data Analysis"
-      ]
-    },
-    {
-      "company": "Virginia Polytechnic Institute and State University",
-      "position": "MEMS Engineer - MEMS Fabricated Continuous Sweat Glucose Monitor",
-      "website": "",
-      "startDate": "2023-01",
-      "endDate": "2023-05",
-      "summary": "Engineered a MEMS-fabricated, glucose sweat sensor, improving lifespan by 700% over commercial models. Simulated sensor behavior using COMSOL Multiphysics. Experimented with techniques like photolithography, Physical Vapor Deposition(PVD), Atomic Layer Deposition(ALD), Chemical Vapor Deposition(CVD), and reactive ion etching to fabricate the sensors.",
-      "highlights": [
-        "Semiconductor Processing",
-        "MEMS Fabrication",
-        "COMSOL Multiphysics",
-        "Simulation"
-      ]
-    },
-    {
-      "company": "Virginia Polytechnic Institute and State University",
-      "position": "Packaging Engineer - Embedded Package Design of a 100V GaN HEMT Device for EV Applications",
-      "website": "",
-      "startDate": "2023-01",
-      "endDate": "2023-05",
-      "summary": "Designed a GaN HEMT packaging solution that optimized thermal management by 25%, improving electrical performance under high-stress conditions. Conducted electrical and thermal simulations using LTSpice and Ansys Q3D to troubleshoot design flaws and reduce parasitic inductance by 10%. Led the failure analysis testing and validation of the packaging design, including wire bond pull tests, reducing failure rates by 20%.",
-      "highlights": [
-        "Electronics Packaging",
-        "Thermal Design",
-        "Electrical Analysis",
-        "Testing",
-        "Failure Anaysis"
-      ]
-    },
-    {
-      "company": "Virginia Polytechnic Institute and State University",
-      "position": "Electrical Engineer - Two-Stage Differential Amplifier",
-      "website": "",
-      "startDate": "2022-08",
-      "endDate": "2022-12",
-      "summary": "Designed and simulated a two-stage differential amplifier using TSMC 180nm PDK, reducing power consumption by 12%. Optimized transistor sizing to meet stringent specifications, improving overall circuit efficiency by 10%. Conducted post-layout simulations in Cadence Virtuoso, ensuring compliance with industry standards. Analyzed extracted simulations, identifying key areas for optimization, enhancing performance.",
-      "highlights": [
-        "Analog IC Design",
-        "Post Layout Simulations",
-        "Cadence Virtuoso",
-        "Validation and Testing"
-      ]
-    },
-    {
       "company": "Smart IOPS Research Center",
       "position": "Intern",
       "website": "https://smartiops.com/",
@@ -234,21 +187,6 @@
         "UNIX Environment"
       ],
       "category": "professional"
-    },
-    {
-      "company": "Amrita Vishwa Vidyapeetham",
-      "position": "Project - Piezo-Tribo Nanogenerator (PTNG) for Powering Wearable Gadgets",
-      "website": "",
-      "startDate": "2019-01",
-      "endDate": "2021-05",
-      "summary": "Developed an energy-harvesting nanogenerator, optimizing material configuration to improve energy conversion efficiency by 30%. Simulated the nanogenerator model using COMSOL Multiphysics, troubleshooting issues and ensuring compliance with design specifications. Presented findings at ICMSMT 2021, demonstrating innovation in renewable energy and showcasing strong documentation, presentation, and communication skills.",
-      "highlights": [
-        "Energy harvesting",
-        "Piezoelectricity",
-        "Project Lead",
-        "Conference Presentation",
-        "Government Grant"
-      ]
     }
   ],
   "volunteer": [
@@ -303,6 +241,38 @@
   "references": [
     {
       "name": "Available upon request"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Project Lead, Programmer - Rental Forecasting Tool",
+      "organization": "Virginia Polytechnic Institute and State University",
+      "period": "2024-01 – 2024-05",
+      "summary": "Developed a forecasting tool using Python and statistical methods to predict rental demand, increasing decision-making accuracy by 20%. Led a multidisciplinary team, ensuring project delivery on time and 17% under budget. Generated an ROI of 2,126%, delivering $217,212 in value from an investment of $9,760. Integrated data analysis and visualization techniques using Python and Google Colab, providing real-time insights on rental trends."
+    },
+    {
+      "title": "MEMS Engineer - MEMS Fabricated Continuous Sweat Glucose Monitor",
+      "organization": "Virginia Polytechnic Institute and State University",
+      "period": "2023-01 – 2023-05",
+      "summary": "Engineered a MEMS-fabricated, glucose sweat sensor, improving lifespan by 700% over commercial models. Simulated sensor behavior using COMSOL Multiphysics. Experimented with techniques like photolithography, Physical Vapor Deposition(PVD), Atomic Layer Deposition(ALD), Chemical Vapor Deposition(CVD), and reactive ion etching to fabricate the sensors."
+    },
+    {
+      "title": "Packaging Engineer - Embedded Package Design of a 100V GaN HEMT Device for EV Applications",
+      "organization": "Virginia Polytechnic Institute and State University",
+      "period": "2023-01 – 2023-05",
+      "summary": "Designed a GaN HEMT packaging solution that optimized thermal management by 25%, improving electrical performance under high-stress conditions. Conducted electrical and thermal simulations using LTSpice and Ansys Q3D to troubleshoot design flaws and reduce parasitic inductance by 10%. Led the failure analysis testing and validation of the packaging design, including wire bond pull tests, reducing failure rates by 20%."
+    },
+    {
+      "title": "Electrical Engineer - Two-Stage Differential Amplifier",
+      "organization": "Virginia Polytechnic Institute and State University",
+      "period": "2022-08 – 2022-12",
+      "summary": "Designed and simulated a two-stage differential amplifier using TSMC 180nm PDK, reducing power consumption by 12%. Optimized transistor sizing to meet stringent specifications, improving overall circuit efficiency by 10%. Conducted post-layout simulations in Cadence Virtuoso, ensuring compliance with industry standards. Analyzed extracted simulations, identifying key areas for optimization, enhancing performance."
+    },
+    {
+      "title": "Project - Piezo-Tribo Nanogenerator (PTNG) for Powering Wearable Gadgets",
+      "organization": "Amrita Vishwa Vidyapeetham",
+      "period": "2019-01 – 2021-05",
+      "summary": "Developed an energy-harvesting nanogenerator, optimizing material configuration to improve energy conversion efficiency by 30%. Simulated the nanogenerator model using COMSOL Multiphysics, troubleshooting issues and ensuring compliance with design specifications. Presented findings at ICMSMT 2021, demonstrating innovation in renewable energy and showcasing strong documentation, presentation, and communication skills."
     }
   ]
 }
