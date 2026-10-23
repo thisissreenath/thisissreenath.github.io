@@ -30,4 +30,3 @@ Fixture design · Additive manufacturing · Laboratory testing · Test setup rep
 
 Applying design-for-use principles to experimental hardware and creating practical tools for laboratory research.
 
-*Detailed design files, dimensions, and internal performance results are not included pending approval for public release.*
