@@ -31,4 +31,3 @@ High-voltage testing · Partial discharge measurement · Dielectric strength eva
 
 Hands-on electrical testing, interpretation of experimental measurements, and development of repeatable characterization workflows.
 
-*Project-specific measurements, results, and internal test materials are not included here pending approval for public release.*
