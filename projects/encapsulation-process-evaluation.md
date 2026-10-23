@@ -33,4 +33,3 @@ Encapsulation · Materials handling · Vacuum degassing · Thermal curing · Tem
 
 Practical materials processing, experimental process control, technical documentation, and training in repeatable laboratory procedures.
 
-*Specific process recipes, internal data, and unpublished results are omitted pending approval for public release.*
