@@ -12,7 +12,7 @@ layout: home
       <p class="mb-0">
         <a href="mailto:{{ site.data.bio.basics.email }}">Email</a>
         {% for profile in site.data.bio.basics.profiles %}
-        {% unless profile.network == 'instagram' %}
+        {% unless profile.network == 'instagram' or profile.network == 'github' %}
           <span aria-hidden="true"> · </span><a href="{{ profile.url }}" target="_blank" rel="noopener noreferrer">{{ profile.network | capitalize }}</a>
         {% endunless %}
         {% endfor %}
@@ -31,7 +31,7 @@ layout: home
     <article class="mb-4">
       <div class="d-flex flex-column flex-md-row justify-content-between gap-1">
         <h3 class="h5 mb-1">{{ role.position }} — {{ role.company }}</h3>
-        <span class="text-muted text-nowrap">{{ role.startDate | slice: 0,7 }} – {% if role.endDate == 'Present' %}Present{% else %}{{ role.endDate | slice: 0,7 }}{% endif %}</span>
+        <span class="text-muted text-nowrap">{{ role.startDate | slice: 5,2 }}/{{ role.startDate | slice: 0,4 }} – {% if role.endDate == 'Present' %}Present{% else %}{{ role.endDate | slice: 5,2 }}/{{ role.endDate | slice: 0,4 }}{% endif %}</span>
       </div>
       <p class="mb-2">{{ role.summary }}</p>
       {% if role.highlights %}
@@ -47,7 +47,7 @@ layout: home
       <article class="mb-3">
         <div class="d-flex flex-column flex-md-row justify-content-between gap-1">
           <h3 class="h5 mb-1">{{ entry.studyType }} in {{ entry.area }}</h3>
-          <span class="text-muted">{{ entry.endDate }}</span>
+          <span class="text-muted">{{ entry.endDate | slice: 5,2 }}/{{ entry.endDate | slice: 0,4 }}</span>
         </div>
         <p class="mb-1">{{ entry.institution }}</p>
         {% if entry.courses %}<p class="small text-muted">Relevant coursework: {{ entry.courses | join: ', ' }}</p>{% endif %}
