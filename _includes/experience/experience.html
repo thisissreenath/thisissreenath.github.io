@@ -13,7 +13,7 @@
                   <h3 class="h5 mb-1">{{ job.position }}</h3>
                   <p class="mb-0 fw-semibold">{{ job.company }}</p>
                 </div>
-                <p class="text-muted mb-0 text-md-end">{{ job.startDate | slice: 0, 7 }} – {% if job.endDate == 'Present' %}Present{% else %}{{ job.endDate | slice: 0, 7 }}{% endif %}</p>
+                <p class="text-muted mb-0 text-md-end">{{ job.startDate | slice: 5, 2 }}/{{ job.startDate | slice: 0, 4 }} – {% if job.endDate == 'Present' %}Present{% else %}{{ job.endDate | slice: 5, 2 }}/{{ job.endDate | slice: 0, 4 }}{% endif %}</p>
               </div>
               <p class="mb-2">{{ job.summary }}</p>
               {% if job.highlights %}
