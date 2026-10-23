@@ -16,7 +16,7 @@
           <a href="mailto:{{ site.data.bio.basics.email }}" aria-label="Email">Email</a>
           {% endif %}
           {% for profile in site.data.bio.basics.profiles %}
-          {% unless profile.network == 'instagram' %}
+          {% unless profile.network == 'instagram' or profile.network == 'github' %}
           <a href="{{ profile.url }}" target="_blank" rel="noopener noreferrer">{{ profile.network | capitalize }}</a>
           {% endunless %}
           {% endfor %}
