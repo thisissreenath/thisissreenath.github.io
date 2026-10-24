@@ -269,5 +269,97 @@
       "period": "2019-01 – 2021-05",
       "summary": "Developed an energy-harvesting nanogenerator, optimizing material configuration to improve energy conversion efficiency by 30%. Simulated the nanogenerator model using COMSOL Multiphysics, troubleshooting issues and ensuring compliance with design specifications. Presented findings at ICMSMT 2021, demonstrating innovation in renewable energy and showcasing strong documentation, presentation, and communication skills."
     }
+  ],
+  "researchPrograms": [
+    {
+      "title": "ONR — Evaluation of Insulation Degradation in 10 kV SiC Power Modules",
+      "organization": "Virginia Tech CPES",
+      "highlights": [
+        "Applied one-factor-at-a-time (OFAT) design of experiments and statistical process analysis, including Shewhart methods and ANOVA, across more than 100 fabrication batches using MATLAB-based logging.",
+        "Developed and deployed an automated high-voltage testing workflow supporting over 3,000 tests and reducing testing cycle time by 46%.",
+        "Designed a laboratory test fixture that reduced fixture cost by 84%, and contributed to repeatable experimental procedures and process documentation.",
+        "Supported technical coordination and recurring progress reviews with a SiC device manufacturer."
+      ]
+    },
+    {
+      "title": "ARPA-E ULTRAFAST — E1 Arrester Press-Pack Module Assembly",
+      "organization": "Virginia Tech CPES",
+      "highlights": [
+        "Assembled press-pack SiC power-module subassemblies using documented manufacturing procedures and lot-level travelers, with 100% post-assembly qualification yield.",
+        "Evaluated package integrity through bond shear testing, thermal-interface-material profilometry, and electrical continuity checks.",
+        "Designed a 3D-printed thermal-interface-material cutting fixture to improve thickness consistency and reduce manual variability during assembly."
+      ]
+    }
+  ],
+  "conferencePresentations": [
+    {
+      "title": "Optimizing Structures and Materials for Footwear-based Piezoelectric Nanogenerator",
+      "event": "Third International Conference on Material Science and Manufacturing Technology (ICMSMT)",
+      "year": "2021",
+      "kind": "Conference presentation"
+    }
+  ],
+  "cvSkills": [
+    {
+      "name": "Semiconductor Packaging",
+      "keywords": [
+        "Pressureless Ag sintering",
+        "Die attach",
+        "Wire bonding",
+        "Press-pack assembly",
+        "Encapsulation",
+        "Plasma cleaning",
+        "Vacuum degassing",
+        "AMB AlN substrates"
+      ]
+    },
+    {
+      "name": "Package Characterization",
+      "keywords": [
+        "Profilometry",
+        "Digital microscopy",
+        "Bond shear testing",
+        "Wire-bond pull testing",
+        "Die shear testing",
+        "Partial discharge testing",
+        "High-voltage dielectric testing"
+      ]
+    },
+    {
+      "name": "Process & Reliability Methods",
+      "keywords": [
+        "Design of experiments (OFAT)",
+        "Statistical process control",
+        "Shewhart charts",
+        "ANOVA",
+        "FMEA",
+        "Root cause analysis",
+        "DFx",
+        "Manufacturing travelers",
+        "SOP development",
+        "Weibull analysis"
+      ]
+    },
+    {
+      "name": "Engineering Software & Programming",
+      "keywords": [
+        "MATLAB",
+        "Python",
+        "C",
+        "COMSOL Multiphysics",
+        "Ansys Q3D",
+        "LTspice",
+        "Cadence Virtuoso",
+        "JMP"
+      ]
+    },
+    {
+      "name": "Standards & Practices",
+      "keywords": [
+        "MIL-STD-883",
+        "AEC-Q101",
+        "EHS practices"
+      ]
+    }
   ]
 }
