@@ -16,3 +16,4 @@ labels:
 
 Completed the Six Sigma White Belt certification curriculum and received the Certified White Belt credential from CSSC.
 
+[View certification PDF]({{ '/essays/Official_Certification_Issued_Six_Sigma_White_Belt_Certification.pdf' | relative_url }})
