@@ -1,0 +1,238 @@
+
+/* Three additional engineering-led prototypes.
+   Shares only fonts/resets/switcher with lab.css, not the live portfolio. */
+body.blueprint,body.monitor,body.foundry{min-height:100vh}
+.x-mono{font-family:'DM Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase}
+.x-container{width:min(1200px,calc(100% - 56px));margin-inline:auto}
+.x-switch{display:flex;gap:6px;flex-wrap:wrap}
+.x-switch a{display:inline-flex;padding:7px 10px;border:1px solid currentColor;border-radius:3px;font:11px 'DM Mono',monospace}
+.x-switch a[aria-current=page]{background:currentColor}
+.x-switch a[aria-current=page] span{color:#fff}
+.x-screenreader{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+
+/* 03 / Blueprint studio */
+body.blueprint{font-family:'DM Sans',sans-serif;color:#edf8ff;background-color:#092a4d;
+  background-image:linear-gradient(#8ac2ed17 1px,transparent 1px),linear-gradient(90deg,#8ac2ed17 1px,transparent 1px),linear-gradient(#8ac2ed0a 1px,transparent 1px),linear-gradient(90deg,#8ac2ed0a 1px,transparent 1px);
+  background-size:100px 100px,100px 100px,20px 20px,20px 20px}
+.blueprint .bp-shell{display:grid;grid-template-columns:216px minmax(0,1fr);max-width:1600px;margin:auto;min-height:100vh}
+.blueprint .bp-aside{border-right:1px solid #7cb8e477;min-height:100vh;position:sticky;top:0;height:100vh;padding:28px 21px;display:flex;flex-direction:column;gap:30px;background:#072443e8}
+.blueprint .bp-logo{font:700 27px 'Space Grotesk',sans-serif;letter-spacing:-.08em;line-height:1}
+.blueprint .bp-logo span{color:#92d5ff}
+.blueprint .bp-side-links{display:flex;flex-direction:column;gap:4px}
+.blueprint .bp-side-links a{display:flex;justify-content:space-between;align-items:center;font:12px 'DM Mono',monospace;padding:12px 9px;color:#accde5;border-bottom:1px solid #b1daee1c}
+.blueprint .bp-side-links a:hover{background:#ffffff12;color:white}
+.blueprint .bp-aside-foot{margin-top:auto;color:#84b8d2;line-height:1.7}
+.blueprint .bp-main{min-width:0}
+.blueprint .bp-top{display:flex;justify-content:space-between;align-items:center;padding:24px 48px;border-bottom:1px solid #8ac2ed64;gap:15px}
+.blueprint .bp-serial{color:#a7dbf7;font:11px 'DM Mono',monospace;letter-spacing:.12em}
+.blueprint .x-switch a{color:#afd4ed}
+.blueprint .x-switch a[aria-current=page]{background:#e4f6ff;border-color:#e4f6ff;color:#092a4d}
+.blueprint .x-switch a[aria-current=page] span{color:#092a4d}
+.blueprint .bp-hero{padding:72px 48px 67px}
+.blueprint .bp-tag{display:inline-block;border:1px solid #7dd4ff;padding:8px 11px;font:11px 'DM Mono',monospace;color:#b3e4ff}
+.blueprint h1{font:600 clamp(58px,6vw,106px)/.96 'Space Grotesk',sans-serif;letter-spacing:-.07em;margin:24px 0 17px;text-transform:uppercase;max-width:900px}
+.blueprint h1 strong{font-weight:600;-webkit-text-stroke:1px #caedff;color:transparent}
+.blueprint .bp-lead{font-size:18px;line-height:1.72;color:#c0ddf0;max-width:670px}
+.blueprint .bp-hero-grid{display:grid;grid-template-columns:1fr minmax(250px,.65fr);gap:36px;align-items:center}
+.blueprint .bp-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.blueprint .bp-btn{padding:13px 19px;background:#d6f3ff;color:#083451;font-weight:700;font-size:13px;border:1px solid #d6f3ff}
+.blueprint .bp-btn.secondary{background:transparent;color:#d6f3ff}
+.blueprint .bp-btn:hover{filter:brightness(1.12)}
+.blueprint .bp-diagram{border:1px solid #83c8ef7d;min-height:340px;position:relative;background:#082342b3;padding:20px}
+.blueprint .bp-diagram .bp-diagram-head{display:flex;justify-content:space-between;gap:10px;color:#a7d5f4}
+.blueprint .bp-diagram svg{width:100%;height:auto;max-height:300px;display:block;margin:auto}
+.blueprint .bp-diagram .bp-caption{position:absolute;bottom:12px;left:20px;color:#96c6e6}
+.blueprint .bp-band{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-block:1px solid #9bd0ee78}
+.blueprint .bp-band div{padding:27px 32px;border-right:1px solid #9bd0ee78}
+.blueprint .bp-band div:last-child{border:0}
+.blueprint .bp-band strong{font:600 24px 'Space Grotesk',sans-serif;display:block;letter-spacing:-.04em;margin:8px 0}
+.blueprint .bp-band small{color:#acd2ea;font-size:12px;line-height:1.5}
+.blueprint .bp-section{padding:78px 48px}
+.blueprint .bp-section + .bp-section{border-top:1px solid #7ab7df66}
+.blueprint .bp-head{display:flex;justify-content:space-between;align-items:end;border-bottom:1px solid #94cae777;padding-bottom:19px;margin-bottom:26px;gap:18px}
+.blueprint .bp-head h2{font:600 clamp(36px,4.1vw,58px)/1 'Space Grotesk',sans-serif;letter-spacing:-.06em;margin:8px 0 0}
+.blueprint .bp-head .x-mono{color:#95cdea}
+.blueprint .bp-projects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.blueprint .bp-project{padding:24px;border:1px solid #7eb9e077;background:#0b3156ab;min-height:245px;display:flex;flex-direction:column;justify-content:space-between;transition:background .18s}
+.blueprint .bp-project:hover{background:#17486d}
+.blueprint .bp-project .x-mono{color:#9bd3f1}
+.blueprint .bp-project h3{font:600 23px/1.18 'Space Grotesk',sans-serif;letter-spacing:-.04em;margin:14px 0 10px}
+.blueprint .bp-project p{color:#b9d4e7;font-size:13px;line-height:1.65;margin:0}
+.blueprint .bp-project-bottom{display:flex;justify-content:space-between;margin-top:22px}
+.blueprint .bp-job{display:grid;grid-template-columns:90px 1fr;gap:20px;border-bottom:1px dashed #b0d9f15c;padding:24px 0}
+.blueprint .bp-job h3{margin:0 0 7px;font-size:20px}
+.blueprint .bp-job p{margin:0;color:#b9d9e9;font-size:14px;line-height:1.7;max-width:800px}
+.blueprint .bp-job .x-mono{color:#a5c8e5;line-height:2}
+.blueprint .bp-contact{padding:65px 48px;background:#def2fa;color:#133a56}
+.blueprint .bp-contact h2{font:600 clamp(39px,5vw,70px)/1.05 'Space Grotesk',sans-serif;letter-spacing:-.06em;margin:14px 0}
+.blueprint .bp-contact p{max-width:600px;line-height:1.7}
+.blueprint .bp-contact .bp-btn{background:#113d5b;border-color:#113d5b;color:white;display:inline-block;margin-top:9px}
+
+/* 04 / Systems monitor */
+body.monitor{font-family:'DM Sans',sans-serif;background:#101719;color:#dfecdd}
+.monitor .m-wrap{width:min(1320px,calc(100% - 54px));margin-inline:auto}
+.monitor .m-top{background:#151f20;border-bottom:1px solid #35504c;position:sticky;top:0;z-index:4}
+.monitor .m-top-inner{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:66px}
+.monitor .m-brand{font:700 18px 'DM Mono',monospace;letter-spacing:-.07em;color:#e2ffc5}
+.monitor .m-led{width:8px;height:8px;display:inline-block;background:#b5ff64;border-radius:50%;margin-right:7px;box-shadow:0 0 10px #b5ff64a8}
+.monitor .m-top-right{display:flex;gap:18px;align-items:center}
+.monitor .m-links{display:flex;gap:22px;font:11px 'DM Mono',monospace;color:#b6c8c2}
+.monitor .m-links a:hover{color:#baff74}
+.monitor .x-switch a{color:#adc0b3}
+.monitor .x-switch a[aria-current=page]{background:#b9f576;border-color:#b9f576}
+.monitor .x-switch a[aria-current=page] span{color:#17201b}
+.monitor .m-status{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;padding:16px 0;font:11px 'DM Mono',monospace;color:#a1b5a7}
+.monitor .m-hero{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(280px,.85fr);gap:15px;padding-bottom:16px}
+.monitor .m-panel{border:1px solid #3c534a;background:#192324;position:relative}
+.monitor .m-panel-header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #31493f;background:#1d2a29;padding:12px 19px;color:#aabeaa;font:11px 'DM Mono',monospace}
+.monitor .m-panel-header strong{color:#c4fa95;font-weight:400}
+.monitor .m-hero-primary{padding:33px 33px 42px}
+.monitor .m-hero-primary h1{font:700 clamp(44px,6vw,88px)/1 'Space Grotesk',sans-serif;letter-spacing:-.079em;margin:12px 0 26px}
+.monitor .m-hero-primary h1 span{color:#baf576}
+.monitor .m-hero-primary p{max-width:640px;color:#b0c2b9;line-height:1.7;font-size:16px}
+.monitor .m-cta{display:inline-block;background:#c0f77b;color:#14211d;font-weight:800;padding:14px 21px;font-size:13px;margin:18px 0 0}
+.monitor .m-cta:hover{background:#d9ffac}
+.monitor .m-cta.alt{background:transparent;color:#c4f77d;border:1px solid #71896e;margin-left:8px}
+.monitor .m-signal{height:205px;position:relative;overflow:hidden;background:repeating-linear-gradient(0deg,transparent,transparent 39px,#789a8331 40px),repeating-linear-gradient(90deg,transparent,transparent 49px,#789a8331 50px)}
+.monitor .m-signal svg{width:100%;height:100%;display:block}
+.monitor .m-wave{fill:none;stroke:#b6f875;stroke-width:2.6;stroke-linejoin:round;filter:drop-shadow(0 0 5px #9bf66f55)}
+.monitor .m-signal-label{position:absolute;bottom:13px;left:17px;font:10px 'DM Mono',monospace;color:#a9d59f}
+.monitor .m-summary-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;margin:0 0 18px}
+.monitor .m-stat{border:1px solid #3b5548;background:#1b2525;padding:25px 22px}
+.monitor .m-stat strong{font:700 clamp(35px,4.8vw,58px)/1 'Space Grotesk',sans-serif;color:#c0f77b;letter-spacing:-.08em;display:block;margin:11px 0}
+.monitor .m-stat p{color:#b9cabe;font-size:12px;margin:0;line-height:1.5}
+.monitor .m-section{padding:60px 0}
+.monitor .m-section-head{display:flex;justify-content:space-between;gap:15px;align-items:end;border-bottom:1px solid #345346;padding-bottom:17px;margin-bottom:20px}
+.monitor .m-section-head h2{font:600 clamp(30px,4vw,48px) 'Space Grotesk',sans-serif;letter-spacing:-.06em;margin:4px 0}
+.monitor .m-section-head .x-mono{color:#a8d48e}
+.monitor .m-filters{display:flex;gap:9px;flex-wrap:wrap;margin:22px 0}
+.monitor .m-filter{border:1px solid #57715a;background:#17231f;color:#b9d0b8;padding:10px 13px;cursor:pointer;font:11px 'DM Mono',monospace}
+.monitor .m-filter:hover,.monitor .m-filter[aria-pressed=true]{background:#b9f576;color:#162218;border-color:#b9f576}
+.monitor .m-projects{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.monitor .m-project{min-height:253px;border:1px solid #3e5649;padding:24px;background:#192424;display:flex;flex-direction:column;justify-content:space-between}
+.monitor .m-project:hover{border-color:#a3df88;background:#1f3228}
+.monitor .m-project[hidden]{display:none!important}
+.monitor .m-project h3{font:600 21px/1.2 'Space Grotesk',sans-serif;letter-spacing:-.04em;margin:15px 0}
+.monitor .m-project p{font-size:13px;line-height:1.65;color:#adc4b6;margin:0}
+.monitor .m-project-bottom{display:flex;justify-content:space-between;gap:12px;color:#b8f68f;padding-top:19px}
+.monitor .m-instruments{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.monitor .m-instrument{padding:22px;border:1px solid #3b5448;background:#1a2724}
+.monitor .m-instrument h3{font:600 17px 'Space Grotesk',sans-serif;margin:0 0 11px}
+.monitor .m-instrument p{margin:0;color:#b3c4b8;font-size:13px;line-height:1.7}
+.monitor .m-timeline article{display:grid;grid-template-columns:160px 1fr;gap:25px;padding:21px 0;border-bottom:1px solid #3b5448}
+.monitor .m-timeline h3{margin:0 0 6px;font-size:20px}
+.monitor .m-timeline p{margin:0;color:#bac8bb;font-size:14px;line-height:1.65}
+.monitor .m-timeline .x-mono{color:#baf576}
+.monitor .m-footer{background:#baf576;color:#172319;padding:65px 0}
+.monitor .m-footer h2{font:700 clamp(39px,6vw,72px) 'Space Grotesk',sans-serif;letter-spacing:-.075em;margin:10px 0 21px}
+.monitor .m-footer a{font-weight:800;text-decoration:underline}
+.monitor .m-footer p{max-width:600px;line-height:1.6}
+.monitor .m-footnote{padding:20px 0;color:#859b8a;font:11px 'DM Mono',monospace}
+
+/* 05 / Industrial dossier / high contrast */
+body.foundry{font-family:'DM Sans',sans-serif;color:#161915;background:#e9e9e1}
+.foundry .f-wrap{width:min(1220px,calc(100% - 48px));margin-inline:auto}
+.foundry .f-top{border-bottom:3px solid #161915}
+.foundry .f-top-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0}
+.foundry .f-brand{font:800 23px 'Space Grotesk',sans-serif;letter-spacing:-.075em}
+.foundry .f-brand span{display:inline-block;width:13px;height:13px;background:#ff572b;margin-left:6px;transform:rotate(45deg)}
+.foundry .f-links{display:flex;gap:22px;font-size:12px;font-weight:800;text-transform:uppercase}
+.foundry .f-links a:hover{color:#f24a24}
+.foundry .x-switch a{color:#1e221c}
+.foundry .x-switch a[aria-current=page]{background:#141713;border-color:#141713}
+.foundry .x-switch a[aria-current=page] span{color:#fff}
+.foundry .f-hero{padding:40px 0 60px}
+.foundry .f-topline{display:flex;justify-content:space-between;gap:20px;border-bottom:1px solid #919589;padding-bottom:13px}
+.foundry .f-hero h1{font:700 clamp(72px,11.5vw,182px)/.77 'Space Grotesk',sans-serif;letter-spacing:-.11em;margin:52px 0 38px;text-transform:uppercase}
+.foundry .f-hero h1 span{color:#ef522d}
+.foundry .f-intro-grid{display:grid;grid-template-columns:1fr .7fr;gap:50px;align-items:end}
+.foundry .f-lead{font-size:clamp(20px,2.5vw,31px);line-height:1.35;letter-spacing:-.03em;max-width:720px;margin:0}
+.foundry .f-links-line{display:flex;gap:9px;flex-wrap:wrap;justify-content:flex-end}
+.foundry .f-btn{display:inline-flex;padding:13px 17px;background:#141713;color:white;border:1px solid #141713;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.04em}
+.foundry .f-btn:hover{background:#ef522d;border-color:#ef522d}
+.foundry .f-btn.orange{background:#ed542e;border-color:#ed542e}
+.foundry .f-marquee{border-block:3px solid #131713;background:#ff6033;padding:20px 0;overflow:hidden}
+.foundry .f-marquee-inner{display:flex;gap:32px;justify-content:space-around;flex-wrap:wrap;font:800 clamp(13px,2vw,21px) 'Space Grotesk',sans-serif;letter-spacing:-.035em}
+.foundry .f-section{padding:70px 0;border-bottom:2px solid #111611}
+.foundry .f-section-head{display:grid;grid-template-columns:180px 1fr;gap:25px;align-items:end;margin-bottom:28px}
+.foundry .f-section-head h2{font:700 clamp(41px,6.2vw,79px)/.94 'Space Grotesk',sans-serif;letter-spacing:-.075em;margin:0}
+.foundry .f-section-head .x-mono{font-weight:600}
+.foundry .f-projects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border:1px solid #242923}
+.foundry .f-project{padding:30px;border-right:1px solid #242923;border-bottom:1px solid #242923;min-height:270px;display:flex;flex-direction:column;justify-content:space-between;transition:background .2s}
+.foundry .f-project:nth-child(even){border-right:0}
+.foundry .f-project:hover{background:#fcf7ea}
+.foundry .f-project .f-index{display:flex;justify-content:space-between;color:#686b60}
+.foundry .f-project h3{font:700 clamp(22px,3vw,32px)/1.1 'Space Grotesk',sans-serif;letter-spacing:-.06em;margin:18px 0 10px}
+.foundry .f-project p{font-size:13px;color:#50594e;line-height:1.6;max-width:510px;margin:0}
+.foundry .f-project .f-arrow{color:#e04f2e;font-size:28px}
+.foundry .f-project .f-foot{display:flex;justify-content:space-between;align-items:center;margin-top:18px}
+.foundry .f-experience{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.foundry .f-job{border-top:4px solid #1e2420;padding:19px 4px}
+.foundry .f-job h3{font:700 24px/1.12 'Space Grotesk',sans-serif;letter-spacing:-.05em;margin:20px 0 9px}
+.foundry .f-job p{font-size:13px;line-height:1.7;color:#535e51}
+.foundry .f-skills{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0}
+.foundry .f-skill{border-bottom:1px solid #b6b8a8;padding:16px 10px 16px 0}
+.foundry .f-skill h3{font:700 17px 'Space Grotesk',sans-serif;margin:0 0 10px}
+.foundry .f-skill p{font-size:13px;line-height:1.6;color:#565e55;margin:0}
+.foundry .f-bottom{background:#141713;color:#edeee5;padding:83px 0}
+.foundry .f-bottom h2{font:700 clamp(48px,8vw,110px)/.88 'Space Grotesk',sans-serif;letter-spacing:-.08em;margin:20px 0 30px}
+.foundry .f-bottom h2 em{font-style:normal;color:#fa663b}
+.foundry .f-bottom .f-btn{border-color:#f66d3b;background:#f66d3b;color:#1a2119}
+.foundry .f-copyright{background:#141713;color:#a4ada0;padding:16px 0;border-top:1px solid #505b51}
+
+/* Gallery cards for new concepts */
+.gallery .concept-top.blueprint-thumb{background-color:#092d54;color:#c8edff;background-image:linear-gradient(#8bc4ff24 1px,transparent 1px),linear-gradient(90deg,#8bc4ff24 1px,transparent 1px);background-size:22px 22px}
+.gallery .concept-top.blueprint-thumb .poster-title{font:700 clamp(37px,5vw,63px)/.96 'Space Grotesk',sans-serif;letter-spacing:-.07em}
+.gallery .concept-top.blueprint-thumb .poster-title span{color:#8ed5fd;-webkit-text-stroke:1px #8ed5fd}
+.gallery .concept-top.monitor-thumb{background:linear-gradient(135deg,#1c302a,#0e1918);color:#d0ffc1}
+.gallery .concept-top.monitor-thumb .poster-title{font:700 clamp(34px,5vw,62px)/.96 'Space Grotesk',sans-serif;letter-spacing:-.075em}
+.gallery .concept-top.monitor-thumb .poster-title span{color:#c2ff7f}
+.gallery .concept-top.foundry-thumb{background:#e8e6db;color:#1b2019;border-bottom:10px solid #fa653c}
+.gallery .concept-top.foundry-thumb .poster-title{font:800 clamp(33px,5.3vw,69px)/.88 'Space Grotesk',sans-serif;letter-spacing:-.08em;text-transform:uppercase}
+.gallery .concept-top.foundry-thumb .poster-title span{color:#ed552e}
+
+/* Mobile adjustments */
+@media(max-width:1024px){
+  .blueprint .bp-shell{grid-template-columns:160px minmax(0,1fr)}
+  .blueprint .bp-aside{padding:23px 12px}
+  .blueprint .bp-top,.blueprint .bp-hero,.blueprint .bp-section{padding-left:28px;padding-right:28px}
+  .blueprint .bp-hero-grid{grid-template-columns:1fr}
+  .blueprint .bp-diagram{max-width:500px}
+  .monitor .m-projects{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .foundry .f-hero h1{font-size:clamp(70px,10vw,135px)}
+}
+@media(max-width:700px){
+  .x-container,.monitor .m-wrap,.foundry .f-wrap{width:calc(100% - 32px)}
+  .blueprint .bp-shell{display:block}
+  .blueprint .bp-aside{position:static;min-height:auto;height:auto;border-bottom:1px solid #7cb8e477;border-right:0;padding:16px 17px;display:block}
+  .blueprint .bp-side-links{flex-direction:row;flex-wrap:wrap;gap:12px;margin-top:12px}
+  .blueprint .bp-side-links a{padding:8px 0}
+  .blueprint .bp-aside-foot{display:none}
+  .blueprint .bp-top{padding:12px 17px}
+  .blueprint .bp-hero,.blueprint .bp-section{padding:49px 17px}
+  .blueprint .bp-hero h1{font-size:clamp(48px,9.5vw,75px)}
+  .blueprint .bp-hero-grid,.blueprint .bp-projects{grid-template-columns:1fr}
+  .blueprint .bp-band{grid-template-columns:1fr}
+  .blueprint .bp-band div{padding:15px 17px;border-right:0;border-bottom:1px solid #9bd0ee66}
+  .blueprint .bp-job{grid-template-columns:1fr;gap:4px}
+  .blueprint .bp-contact{padding:52px 17px}
+  .monitor .m-top-inner{flex-wrap:wrap;padding:12px 0}
+  .monitor .m-top-right{flex-wrap:wrap;gap:10px}
+  .monitor .m-links{gap:13px}
+  .monitor .m-hero{grid-template-columns:1fr}
+  .monitor .m-hero-primary{padding:27px 18px}
+  .monitor .m-hero-primary h1{font-size:clamp(47px,10vw,75px)}
+  .monitor .m-summary-grid,.monitor .m-projects,.monitor .m-instruments{grid-template-columns:1fr}
+  .monitor .m-section{padding:40px 0}
+  .monitor .m-timeline article{grid-template-columns:1fr;gap:8px}
+  .monitor .m-cta.alt{margin-left:0}
+  .foundry .f-top-inner{flex-wrap:wrap}
+  .foundry .f-links{order:3;width:100%;gap:12px;flex-wrap:wrap}
+  .foundry .f-hero h1{font-size:clamp(62px,14vw,100px);margin:38px 0}
+  .foundry .f-intro-grid{grid-template-columns:1fr;gap:26px}
+  .foundry .f-links-line{justify-content:flex-start}
+  .foundry .f-section{padding:51px 0}
+  .foundry .f-section-head{grid-template-columns:1fr;gap:12px}
+  .foundry .f-projects,.foundry .f-experience,.foundry .f-skills{grid-template-columns:1fr}
+  .foundry .f-project{border-right:0}
+}
