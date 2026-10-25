@@ -1,96 +1,109 @@
 ---
 layout: extra
 type: extra
-title: "Nurturing Dreams: A Day of Inspiration and Support"
-# All dates must be YYYY-MM-DD format!
+title: "Community Outreach & Student Social Responsibility"
 date: 2019-04-08
 published: true
+image: img/1.JPG
+summary: "Organized and led a six-member student team in an educational and recreational outreach initiative focused on listening, learning, and supporting children's aspirations."
 labels:
-  - Social Responsibility
-  - Giving Back
-  - Community Engagement
-  - 
+  - Community Outreach
+  - Student Leadership
+  - Volunteer Service
 ---
 
-<body>
-    <div>
-        <img style="width:100%;" src="../img/1.JPG">
-    </div>
-    <div>
-        <p>During my undergraduate years at Amrita School of Engineering, 
-            one of the most rewarding experiences was organizing an orphanage
-             visit as part of our Student Social Responsibility initiative.
-              It was a day filled with heartfelt connections, shared dreams,
-               and a sense of responsibility towards our community.</p>
-      </div>
-  <div style="display: flex; padding-top: 15px;">
-        <img style="width: 300px;" src="../img/2.JPG" alt="">
-        <img style="width: 300px; padding-left:20px; padding-right: 20px;" src="../img/3.JPG" alt="">
-        <p>
-            By forming and leading a dedicated team of six, we embarked on a
-             mission to spend quality time with the children at the orphanage.
-              Approximately 15 young souls greeted us with smiles that radiated 
-              both resilience and hope. Our goal was not only to offer them a
-               day of joy but to instill a sense of empowerment and support for 
-               their aspirations.
-        </p>       
-    </div>
-    <div style="display: flex; padding-top: 15px;">
-        <p>We began the day by engaging in open conversations and encouraging 
-            the children to share their dreams and aspirations. Some expressed
-             a deep desire to excel in academics but lacking the necessary 
-             resources. Recognizing the importance of education, we provided 
-             them with books, and study guides, and even subscribed to a year-long 
-             book service, creating a small library that would serve as a beacon
-              of knowledge for their journey ahead.
-        </p>
-      <img style="width: 300px; padding-left:20px; padding-right: 20px;" src="../img/4.JPG" alt="">
-        <img style="width: 300px; " src="../img/14.JPG" alt="">
-    </div>
-    <div style="display: flex; padding-top: 15px;">
-      <img style="width: 300px;" src="../img/13.JPG" alt="">
-       <img style="width: 300px; padding-left:20px; padding-right: 20px;" src="../img/9.JPG" alt="">
-        <p>Others harbored dreams of excelling in sports and athletics.
-             Understanding the significance of physical activity for their 
-             holistic development, we equipped them with sports gear and 
-             equipment. The joy on their faces as they held a basketball 
-             or swung a tennis racket for the first time was truly priceless.
-        </p>
-    </div>
-    <div style="display: flex; padding-top: 15px;">
-        <p>Beyond material support, we aimed to inspire and motivate. We shared
-             our own stories, emphasizing the power of education and perseverance 
-             in achieving one's goals. Each interaction was an opportunity to
-              impart not just knowledge but a sense of belief in their potential.
-       </p>
-       <img style="width: 300px; padding-left:20px; padding-right: 20px;" src="../img/6.JPG" alt="">
-      <img style="width: 300px; " src="../img/11.JPG" alt="">
-    </div>
-    <div style="display: flex; padding-top: 15px;">
-      <img style="width: 300px;" src="../img/10.JPG" alt="">
-       <img style="width: 300px; padding-left:20px; padding-right: 20px;" src="../img/12.JPG" alt="">
-        <p>A special lunch provided an opportunity for us to sit down with the children,
-             fostering a sense of community and shared experiences. As we enjoyed the 
-             meal together, we listened to their stories, offered guidance, and provided 
-             a supportive environment where they felt heard and valued.
-        </p>   
-    </div>
-    <div style="display: flex; padding-top: 15px;">
-        <p>This experience reinforced the belief that as students, we hold a significant 
-            responsibility towards our community. Our actions, no matter how small, can make
-             a substantial impact on the lives of those around us. By sharing our time, 
-             resources, and knowledge, we contribute to a more compassionate and interconnected society.
-       </p>
-    </div>
-    <div>
-        <img style="width:100%; padding-top: 40px;" src="../img/8.JPG">
-    </div>
-    <p>In conclusion, the orphanage visit was not just a day spent with children;
-         it was a manifestation of our commitment to social responsibility. It served 
-         as a reminder that we, as individuals and as a community, have the power to 
-         uplift and inspire, creating a positive ripple effect that extends far
-          beyond the confines of our academic institution.</p>
+## A day built around listening and connection
 
+During my undergraduate years at Amrita School of Engineering, I had the opportunity to organize a visit to a children's residential care organization through our Student Social Responsibility initiative. Together with five fellow students, I wanted to do more than simply deliver supplies. We hoped to share our time, get to know the children, and understand what would genuinely be useful to them.
 
+Our team of six met with approximately fifteen children. We started with conversations rather than a formal program. We asked about school, hobbies, the things they enjoyed, and the ambitions they had for the future. What stayed with me was how much these conversations mattered: each child had individual interests and hopes, and listening made the day feel less like a one-time activity and more like a chance to connect as people.
 
-</body>
+## Supporting learning and creativity
+
+Some of the children spoke about their interest in studying and doing well academically, along with the resources that could help them. In response, we brought books and study guides, arranged a year-long book subscription, and contributed materials toward a small shared library. We wanted these resources to remain useful after our visit ended—not just to mark the occasion, but to offer something they could return to as they learned and explored.
+
+The experience reminded me that educational support is not always about a grand gesture. Sometimes it starts with asking what someone needs, following through thoughtfully, and recognizing the importance of access to everyday learning materials.
+
+## Making room for play and possibility
+
+Learning was only one part of our time together. We also brought sports equipment and spent time discussing the children's interests in games and athletics. These moments offered a different kind of connection: the chance to relax, participate, and share in something enjoyable.
+
+We talked about our own experiences as students, including the opportunities and challenges that shaped our paths. Rather than offering promises about anyone's future, we tried to be encouraging, approachable, and genuinely interested in the goals the children shared with us.
+
+A meal together gave us another opportunity to talk informally and spend time as a group. It was one of the simplest parts of the visit, yet an important reminder that community service involves presence and attention as much as planning and resources.
+
+## What I carried forward
+
+Leading this initiative taught me lessons that continue to shape how I think about responsibility and teamwork. Organizing people and supplies was important, but the more meaningful work was building trust within our student team, listening carefully, and treating the people we met with dignity and respect.
+
+I don't think a single visit can solve the challenges faced by a community, and I wouldn't claim that ours did. What it showed me was the value of contributing what we can, being thoughtful about how we contribute, and remaining open to what other people can teach us.
+
+For me, that is what student social responsibility came to mean: **using our time, skills, and resources to participate in a community with humility, compassion, and a willingness to learn.** The experience stayed with me long after the day ended, and it remains an important part of how I understand service and leadership.
+
+## Photos from the initiative
+
+<div class="row g-3 community-featured-gallery mb-3">
+  <div class="col-md-7">
+    <img loading="lazy" class="img-fluid rounded community-featured-img" src="{{ '/img/1.JPG' | relative_url }}" alt="Community outreach initiative, featured photograph">
+  </div>
+  <div class="col-md-5">
+    <img loading="lazy" class="img-fluid rounded community-featured-img" src="{{ '/img/8.JPG' | relative_url }}" alt="Community outreach initiative, group photograph">
+  </div>
+</div>
+
+<details class="community-gallery-details border rounded p-3 mb-4">
+  <summary class="fw-semibold">View 10 more photos</summary>
+  <p class="text-muted small mt-2">Select any photograph to open the full-size image in a new tab.</p>
+  <div class="row row-cols-2 row-cols-md-3 g-3 mt-1">
+    <div class="col">
+      <a href="{{ '/img/2.JPG' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open community outreach photo 2 at full size">
+        <img loading="lazy" class="img-fluid rounded shadow-sm community-gallery-img" src="{{ '/img/2.JPG' | relative_url }}" alt="Community outreach photograph 2">
+      </a>
+    </div>
+    <div class="col">
+      <a href="{{ '/img/3.JPG' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open community outreach photo 3 at full size">
+        <img loading="lazy" class="img-fluid rounded shadow-sm community-gallery-img" src="{{ '/img/3.JPG' | relative_url }}" alt="Community outreach photograph 3">
+      </a>
+    </div>
+    <div class="col">
+      <a href="{{ '/img/4.JPG' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open community outreach photo 4 at full size">
+        <img loading="lazy" class="img-fluid rounded shadow-sm community-gallery-img" src="{{ '/img/4.JPG' | relative_url }}" alt="Community outreach photograph 4">
+      </a>
+    </div>
+    <div class="col">
+      <a href="{{ '/img/6.JPG' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open community outreach photo 6 at full size">
+        <img loading="lazy" class="img-fluid rounded shadow-sm community-gallery-img" src="{{ '/img/6.JPG' | relative_url }}" alt="Community outreach photograph 6">
+      </a>
+    </div>
+    <div class="col">
+      <a href="{{ '/img/9.JPG' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open community outreach photo 9 at full size">
+        <img loading="lazy" class="img-fluid rounded shadow-sm community-gallery-img" src="{{ '/img/9.JPG' | relative_url }}" alt="Community outreach photograph 9">
+      </a>
+    </div>
+    <div class="col">
+      <a href="{{ '/img/10.JPG' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open community outreach photo 10 at full size">
+        <img loading="lazy" class="img-fluid rounded shadow-sm community-gallery-img" src="{{ '/img/10.JPG' | relative_url }}" alt="Community outreach photograph 10">
+      </a>
+    </div>
+    <div class="col">
+      <a href="{{ '/img/11.JPG' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open community outreach photo 11 at full size">
+        <img loading="lazy" class="img-fluid rounded shadow-sm community-gallery-img" src="{{ '/img/11.JPG' | relative_url }}" alt="Community outreach photograph 11">
+      </a>
+    </div>
+    <div class="col">
+      <a href="{{ '/img/12.JPG' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open community outreach photo 12 at full size">
+        <img loading="lazy" class="img-fluid rounded shadow-sm community-gallery-img" src="{{ '/img/12.JPG' | relative_url }}" alt="Community outreach photograph 12">
+      </a>
+    </div>
+    <div class="col">
+      <a href="{{ '/img/13.JPG' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open community outreach photo 13 at full size">
+        <img loading="lazy" class="img-fluid rounded shadow-sm community-gallery-img" src="{{ '/img/13.JPG' | relative_url }}" alt="Community outreach photograph 13">
+      </a>
+    </div>
+    <div class="col">
+      <a href="{{ '/img/14.JPG' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open community outreach photo 14 at full size">
+        <img loading="lazy" class="img-fluid rounded shadow-sm community-gallery-img" src="{{ '/img/14.JPG' | relative_url }}" alt="Community outreach photograph 14">
+      </a>
+    </div>
+  </div>
+</details>

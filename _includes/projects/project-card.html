@@ -1,23 +1,19 @@
-<div class="card mb-3">
-  <div class="row g-0">
-    <div class="col-sm-6 col-md-4">
-      <img src="{{ site.baseurl }}/{{ include.page.image }}" height="225px" class="rounded-start">
+<article class="card mb-3">
+  <div class="card-body p-4">
+    <div class="d-flex flex-column flex-md-row justify-content-between gap-2">
+      <h3 class="h5 card-title mb-1">{{ include.page.title }}</h3>
+      <span class="text-muted">{{ include.page.date }}</span>
     </div>
-    <div class="col-sm-6 col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">{{ include.page.title }} <small class="text-muted float-end">{{ include.page.date }}</small></h5>
-        <p class="card-text">{{ include.page.summary }}</p>
-        <p>
-          {% for label in include.page.labels %}
-          <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
-          {% endfor %}
-        </p>
-        {% if page.projecturl %}
-        <a href="{{ page.projecturl }}" class="btn btn-outline-dark">Project Site</a>
-        {% else %}
-        <a href="{{ site.baseurl}}{{ include.page.url }}" class="btn btn-outline-dark">Read More</a>
-        {% endif %}
-      </div>
+    <p class="card-text my-2">{{ include.page.summary }}</p>
+    <div class="d-flex flex-wrap gap-1 mb-3">
+      {% for label in include.page.labels %}
+      <span class="badge rounded-pill" style="background-color: var(--tf-pill-bg)">{{ label }}</span>
+      {% endfor %}
     </div>
+    {% if include.page.projecturl %}
+      <a href="{{ include.page.projecturl }}" class="btn btn-outline-dark">Project Site</a>
+    {% else %}
+      <a href="{{ include.page.url | relative_url }}" class="btn btn-outline-dark">Read More</a>
+    {% endif %}
   </div>
-</div>
+</article>

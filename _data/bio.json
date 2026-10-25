@@ -1,55 +1,123 @@
 {
   "basics": {
     "name": "Sreenath Krishnan Potty",
-    "label": "Master of Science in Electrical Engineering, Bachelor of Technology in Electronics and Communications Engineering",
+    "label": "Electrical Engineer | Power Electronics Packaging | Reliability & Semiconductor Research",
     "picture": "https://github.com/thisissreenath.png",
     "email": "thisissreenath@gmail.com",
-    "phone": "540-558-5835",
+    "phone": "",
     "website": "https://thisissreenath.github.io",
-    "summary": "",
-    "location": { "address": "110 Northview Drive", "postalCode": "24060", "city": "Blacksburg", "countryCode": "USA", "region": "Virginia" },
+    "summary": "Electrical engineer with a master's degree from Virginia Tech and hands-on research experience in power electronics packaging, electrical insulation evaluation, partial discharge testing, and materials characterization. My work combines experimental testing, engineering analysis, and process development to support reliable electronic systems. My interests include semiconductor technologies, advanced manufacturing, and engineering project management.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Arlington",
+      "countryCode": "USA",
+      "region": "Virginia"
+    },
     "profiles": [
-      { "network": "linkedin", "username": "Sreenath Krishnan Potty", "url": "http://linkedin.com/in/sreenath-k" },
-      { "network": "instagram", "username": "Sreenath K", "url": "http://instagram.com/sreenaaaath" }
+      {
+        "network": "linkedin",
+        "username": "Sreenath Krishnan Potty",
+        "url": "https://linkedin.com/in/sreenath-k"
+      },
+      {
+        "network": "instagram",
+        "username": "Sreenath K",
+        "url": "https://instagram.com/sreenaaaath"
+      }
     ]
   },
- "interests": [
-    { "name": "Electrical Engineering" },
-    { "name": "Circuit Designing" },
-    { "name": "Semiconductor Processing and Fabrication" },
-    { "name": "Project Management" },
-    { "name": "Manufacturing" }
+  "interests": [
+    {
+      "name": "Power Electronics and Packaging"
+    },
+    {
+      "name": "Dielectric Insulation and Reliability"
+    },
+    {
+      "name": "Semiconductor Processing and Fabrication"
+    },
+    {
+      "name": "Experimental Research and Data Analysis"
+    },
+    {
+      "name": "Engineering Project Management"
+    }
   ],
   "skills": [
     {
-      "name": "Software & Tools",
-      "keywords": [ "Ansys Q3D", "AutoCAD", "Cadence Virtuoso", "LTSpice", "Microsoft Office", "Microsoft Project", "JMP", "UNIX Environment" ]
+      "name": "Power Electronics & Packaging",
+      "keywords": [
+        "Power Electronics Packaging",
+        "GaN Device Packaging",
+        "Electrical Insulation Characterization",
+        "Encapsulation",
+        "Thermal Design"
+      ]
     },
     {
-      "name": "Technical",
-      "keywords": [ "Electrical Engineering, Software Development, Machine Learning, Mathematical Modeling, Data Visualization, System-Level Design, Circuit Design, Circuit Simulation", "Layout Design, Embedded Die Packaging, Electrical Analysis, Reliability Testing, Device Fabrication" ]
+      "name": "Testing & Reliability",
+      "keywords": [
+        "High-Voltage Testing",
+        "Partial Discharge Testing",
+        "Dielectric Strength Testing",
+        "Design of Experiments",
+        "Weibull Analysis",
+        "Experimental Data Analysis"
+      ]
     },
     {
-      "name": "Mathematical and Analytical",
-      "keywords": [ "Mathematical Problem-Solving, Optimization Techniques, Historical Data Analysis, Statistical Data Analysis, Predictive Analysis" ]
+      "name": "Fabrication & Materials Processing",
+      "keywords": [
+        "MEMS Fabrication",
+        "Photolithography",
+        "Thin-Film Deposition",
+        "Reactive Ion Etching",
+        "Vacuum Degassing",
+        "Thermal Curing"
+      ]
     },
     {
-      "name": "Project Management",
-      "keywords": [ "Project Scheduling, Project Planning, Resource Allocation, Budget Planning, Risk Management" ]
+      "name": "Programming & Engineering Software",
+      "keywords": [
+        "MATLAB",
+        "Python",
+        "C",
+        "Ansys Q3D",
+        "LTspice",
+        "Cadence Virtuoso",
+        "COMSOL Multiphysics",
+        "JMP",
+        "AutoCAD"
+      ]
     },
     {
-      "name": "Programming Language",
-      "keywords": [ "Python, C, MATLAB"]
+      "name": "Engineering & Project Management",
+      "keywords": [
+        "Technical Documentation",
+        "Process Improvement",
+        "Experimental Planning",
+        "Project Scheduling",
+        "Student Training",
+        "Team Leadership"
+      ]
     }
   ],
- "education": [
+  "education": [
     {
       "institution": "Virginia Polytechnic Institute and State University, VA",
       "area": "Electrical Engineering",
       "studyType": "Master of Science",
       "endDate": "2024-05",
       "gpa": "3.48/4.0",
-      "courses": [ "Analog IC Design, MEMS Fabrication to Application, Principles of Electronics Packaging, Machine Learning, Data Analytics, Engineering Program and Project Management, Bioelectronics"
+      "courses": [
+        "Analog IC Design",
+        "MEMS Fabrication to Application",
+        "Principles of Electronics Packaging",
+        "Machine Learning",
+        "Data Analytics",
+        "Engineering Program and Project Management",
+        "Bioelectronics"
       ]
     },
     {
@@ -58,153 +126,247 @@
       "studyType": "Bachelor of Technology",
       "endDate": "2021-05",
       "gpa": "7.18/10",
-      "courses": ["Digital Circuits and Systems, VLSI Design, Principles of VLSI Testing, Linear Integrated Circuits, Electronic Circuits, Optimization Techniques, Calculus"]
-    },
+      "courses": [
+        "Digital Circuits and Systems",
+        "VLSI Design",
+        "Principles of VLSI Testing",
+        "Linear Integrated Circuits",
+        "Electronic Circuits",
+        "Optimization Techniques",
+        "Calculus"
+      ],
+      "honors": "First Class Honors",
+      "thesis": "Piezo-Tribo Nanogenerator (PTNG) for Powering Wearable Electronic Gadgets"
+    }
   ],
-   "work": [
+  "work": [
     {
-      "company": "Virginia Polytechnic Institute and State University",
-      "position": "Project Lead, Programmer - Rental Forecasting Tool",
-      "website": "",
-      "startDate": "2024-01",
-      "endDate": "2024-05",
-      "summary": "Developed a forecasting tool using Python and statistical methods to predict rental demand, increasing decision-making accuracy by 20%. Led a multidisciplinary team, ensuring project delivery on time and 17% under budget. Generated an ROI of 2,126%, delivering $217,212 in value from an investment of $9,760. Integrated data analysis and visualization techniques using Python and Google Colab, providing real-time insights on rental trends.",
+      "company": "Center for Power Electronics Systems (CPES), Virginia Tech",
+      "position": "Laboratory Associate",
+      "website": "https://cpes.vt.edu/",
+      "startDate": "2026-08",
+      "endDate": "Present",
+      "summary": "Promoted from Laboratory Assistant while continuing hands-on research in power electronics packaging, dielectric insulation, and encapsulation; expanded responsibilities to student training and laboratory tours.",
       "highlights": [
-        "Project Management",
-        "Software Project Management",
-        "Software Development",
-        "Data Analysis",
-        "Predictive Analytics",
-        "Historical Data Analysis"
+        "Continue partial discharge and dielectric insulation testing, materials processing, and experimental data analysis for power electronics packaging research.",
+        "Train incoming students in encapsulation workflows, including specimen preparation, vacuum degassing, curing, and electrical testing procedures.",
+        "Conduct laboratory tours, explaining research activities, equipment, and experimental workflows to visitors."
+      ],
+      "category": "professional"
+    },
+    {
+      "company": "Center for Power Electronics Systems (CPES), Virginia Tech",
+      "position": "Laboratory Assistant",
+      "website": "https://cpes.vt.edu/",
+      "startDate": "2024-11",
+      "endDate": "2026-08",
+      "summary": "Conducted laboratory fabrication, insulation testing, and experimental analysis for power electronics packaging research.",
+      "highlights": [],
+      "category": "professional",
+      "projects": [
+        {
+          "title": "ONR — Evaluation of Insulation Degradation in 10 kV SiC Power Modules",
+          "highlights": [
+            "Applied one-factor-at-a-time (OFAT) design of experiments and statistical process analysis, including Shewhart methods and ANOVA, across more than 100 fabrication batches using MATLAB-based logging.",
+            "Developed and deployed an automated high-voltage testing workflow supporting over 3,000 tests and reducing testing cycle time by 46%.",
+            "Designed a laboratory test fixture that reduced fixture cost by 84%, and contributed to repeatable experimental procedures and process documentation.",
+            "Supported technical coordination and recurring progress reviews with a SiC device manufacturer."
+          ]
+        },
+        {
+          "title": "ARPA-E ULTRAFAST — E1 Arrester Press-Pack Module Assembly",
+          "highlights": [
+            "Assembled press-pack SiC power-module subassemblies using documented manufacturing procedures and lot-level travelers, with 100% post-assembly qualification yield.",
+            "Evaluated package integrity through bond shear testing, thermal-interface-material profilometry, and electrical continuity checks.",
+            "Designed a 3D-printed thermal-interface-material cutting fixture to improve thickness consistency and reduce manual variability during assembly."
+          ]
+        }
       ]
     },
     {
-      "company": "Virginia Polytechnic Institute and State University",
-      "position": "MEMS Engineer - MEMS Fabricated Continuous Sweat Glucose Monitor",
-      "website": "",
-      "startDate": "2023-01",
-      "endDate": "2023-05",
-      "summary": "Engineered a MEMS-fabricated, glucose sweat sensor, improving lifespan by 700% over commercial models. Simulated sensor behavior using COMSOL Multiphysics. Experimented with techniques like photolithography, Physical Vapor Deposition(PVD), Atomic Layer Deposition(ALD), Chemical Vapor Deposition(CVD), and reactive ion etching to fabricate the sensors.",
-      "highlights": [
-        "Semiconductor Processing",
-        "MEMS Fabrication",
-        "COMSOL Multiphysics",
-        "Simulation",
-      ]
-    },
-    {
-      "company": "Virginia Polytechnic Institute and State University",
-      "position": "Packaging Engineer - Embedded Package Design of a 100V GaN HEMT Device for EV Applications",
-      "website": "",
-      "startDate": "2023-01",
-      "endDate": "2023-05",
-      "summary": "Designed a GaN HEMT packaging solution that optimized thermal management by 25%, improving electrical performance under high-stress conditions. Conducted electrical and thermal simulations using LTSpice and Ansys Q3D to troubleshoot design flaws and reduce parasitic inductance by 10%. Led the failure analysis testing and validation of the packaging design, including wire bond pull tests, reducing failure rates by 20%.",
-      "highlights": [
-        "Electronics Packaging",
-        "Thermal Design",
-        "Electrical Analysis",
-        "Testing",
-        "Failure Anaysis"
-      ]
-    },
-    {
-      "company": "Virginia Polytechnic Institute and State University",
-      "position": "Electrical Engineer - Two-Stage Differential Amplifier",
-      "website": "",
-      "startDate": "2022-08",
-      "endDate": "2022-12",
-      "summary": "Designed and simulated a two-stage differential amplifier using TSMC 180nm PDK, reducing power consumption by 12%. Optimized transistor sizing to meet stringent specifications, improving overall circuit efficiency by 10%. Conducted post-layout simulations in Cadence Virtuoso, ensuring compliance with industry standards. Analyzed extracted simulations, identifying key areas for optimization, enhancing performance.",
-      "highlights": [
-        "Analog IC Design",
-        "Post Layout Simulations",
-        "Cadence Virtuoso",
-        "Validation and Testing"
-      ]
-    },
-    {
-     "company": "Smart IOPS Research Center",
-      "position": "Intern",
+      "company": "Smart IOPS Research Center",
+      "position": "Performance Evaluation and Benchmarking Intern",
       "website": "https://smartiops.com/",
       "startDate": "2021-08-15",
       "endDate": "2022-03-31",
-      "summary": "Collaborated with an interdisciplinary team of hardware, software, and system engineers to develop a Smart Cluster Management Tool, improving system monitoring accuracy by 30%. Designed and implemented Python and C programs to retrieve real-time data for system performance testing, reducing system downtime by 10%. Conducted system-level testing and debugging, enhancing software stability by 15%.",
+      "summary": "Developed and evaluated system-monitoring software for a Smart Cluster Management Tool using Python and C in a UNIX/Linux environment.",
       "highlights": [
-        "Python Programming",
-        "C Programming",
-        "Software Development",
-        "UNIX Environment"
-      ]
-    },
-    {
-      "company": "Amrita Vishwa Vidyapeetham",
-      "position": "Project - Piezo-Tribo Nanogenerator (PTNG) for Powering Wearable Gadgets",
-      "website": "",
-      "startDate": "2019-01",
-      "endDate": "2021-05",
-      "summary": "Developed an energy-harvesting nanogenerator, optimizing material configuration to improve energy conversion efficiency by 30%. Simulated the nanogenerator model using COMSOL Multiphysics, troubleshooting issues and ensuring compliance with design specifications. Presented findings at ICMSMT 2021, demonstrating innovation in renewable energy and showcasing strong documentation, presentation, and communication skills.",
-      "highlights": [ "Energy harvesting",
-        "Piezoelectricity",
-        "Project Lead",
-        "Conference Presentation",
-        "Government Grant"]
-    },
+        "Collaborated with hardware, software, and systems engineers to improve system monitoring accuracy by 30%.",
+        "Designed Python and C programs for real-time system performance monitoring and testing, contributing to a 10% reduction in system downtime.",
+        "Performed system-level testing and debugging, improving software stability by 15%."
+      ],
+      "category": "professional"
+    }
   ],
- "volunteer": [
-   {
-     "position": "Conference Presentation",
-      "summary": "",
-      "highlights": [
-        "Third International Conference on Material Science and Manufacturing Technology - Optimizing Structures and Materials for Footwear-based Piezoelectric Nanogenerator, 2021",
-      ]
-    },
+  "volunteer": [
     {
-      "position": "Leadership",
-      "summary": "",
+      "position": "Volunteer — Bradley Department of Electrical and Computer Engineering, Virginia Tech",
+      "startDate": "2024-09",
+      "summary": "Volunteered with the Bradley Department of Electrical and Computer Engineering at Virginia Tech, supporting instructional resource development for electrical engineering coursework.",
       "highlights": [
-        "Rental Forecasting Tool, 2024-2024",
-        "Piezo-Tribo Nanogenerator (PTNG) for Powering Wearable Gadgets, 2019-2021",
-        "Student Publicity Group - VIDYUT, 2019-2020",
-      ]
-    },
-    {
-      "position": "Organizer",
-      "summary": "",
-      "highlights": [
-        "Student Social Responsibility - Orphanage Visit, 2019",
-        "Technical Workshops, Events, and Competitions - VIDYUT, 2019",
-      ]
-    },
-    {
-      "position": "Volunteer",
-      "summary": "",
-      "highlights": [
-        "Amrita Cube Open - World Cube Association, 2020",
-        "Beach Cleanup Drive, Amala Bharatam Campaign, 2018",
-        "Pamba Cleanup Drive - AYUDH, 2017"
-      ]
+        "Developed MATLAB- and Python-based educational resources for ECE 3614 (Introduction to Communication Systems)."
+      ],
+      "status": "Completed",
+      "endDate": "2025-07"
     }
   ],
   "awards": [
     {
-      "title": "Government Grant",
+      "title": "KSCSTE Research Grant — Piezo-Tribo Nanogenerator",
       "date": "2021",
       "awarder": "Kerala State Council for Science, Technology and Environment (KSCSTE)",
-      "summary": "Project - Flexible Piezo Tribo Nanogenerator (PTNG) for Powering Wearable Gadgets."
-    },
-    {
-      "title": "Sharing and Caring",
-      "date": "2016-2017",
-      "awarder": "Amrita Vidyalayam",
-      "summary": ""
+      "summary": "Awarded a research grant by the Kerala State Council for Science, Technology and Environment (KSCSTE) in support of undergraduate research on a flexible piezoelectric–triboelectric nanogenerator for wearable electronics."
     }
   ],
   "references": [
     {
       "name": "Available upon request"
     }
+  ],
+  "projects": [
+    {
+      "title": "Project Lead, Programmer - Rental Forecasting Tool",
+      "organization": "Virginia Polytechnic Institute and State University",
+      "period": "2024-01 – 2024-05",
+      "summary": "Developed a forecasting tool using Python and statistical methods to predict rental demand, increasing decision-making accuracy by 20%. Led a multidisciplinary team, ensuring project delivery on time and 17% under budget. Generated an ROI of 2,126%, delivering $217,212 in value from an investment of $9,760. Integrated data analysis and visualization techniques using Python and Google Colab, providing real-time insights on rental trends."
+    },
+    {
+      "title": "MEMS Engineer - MEMS Fabricated Continuous Sweat Glucose Monitor",
+      "organization": "Virginia Polytechnic Institute and State University",
+      "period": "2023-01 – 2023-05",
+      "summary": "Engineered a MEMS-fabricated, glucose sweat sensor, improving lifespan by 700% over commercial models. Simulated sensor behavior using COMSOL Multiphysics. Experimented with techniques like photolithography, Physical Vapor Deposition(PVD), Atomic Layer Deposition(ALD), Chemical Vapor Deposition(CVD), and reactive ion etching to fabricate the sensors."
+    },
+    {
+      "title": "Packaging Engineer - Embedded Package Design of a 100V GaN HEMT Device for EV Applications",
+      "organization": "Virginia Polytechnic Institute and State University",
+      "period": "2023-01 – 2023-05",
+      "summary": "Designed a GaN HEMT packaging solution that optimized thermal management by 25%, improving electrical performance under high-stress conditions. Conducted electrical and thermal simulations using LTSpice and Ansys Q3D to troubleshoot design flaws and reduce parasitic inductance by 10%. Led the failure analysis testing and validation of the packaging design, including wire bond pull tests, reducing failure rates by 20%."
+    },
+    {
+      "title": "Electrical Engineer - Two-Stage Differential Amplifier",
+      "organization": "Virginia Polytechnic Institute and State University",
+      "period": "2022-08 – 2022-12",
+      "summary": "Designed and simulated a two-stage differential amplifier using TSMC 180nm PDK, reducing power consumption by 12%. Optimized transistor sizing to meet stringent specifications, improving overall circuit efficiency by 10%. Conducted post-layout simulations in Cadence Virtuoso, ensuring compliance with industry standards. Analyzed extracted simulations, identifying key areas for optimization, enhancing performance."
+    },
+    {
+      "title": "Project - Piezo-Tribo Nanogenerator (PTNG) for Powering Wearable Gadgets",
+      "organization": "Amrita Vishwa Vidyapeetham",
+      "period": "2019-01 – 2021-05",
+      "summary": "Developed an energy-harvesting nanogenerator, optimizing material configuration to improve energy conversion efficiency by 30%. Simulated the nanogenerator model using COMSOL Multiphysics, troubleshooting issues and ensuring compliance with design specifications. Presented findings at ICMSMT 2021, demonstrating innovation in renewable energy and showcasing strong documentation, presentation, and communication skills."
+    }
+  ],
+  "conferencePresentations": [
+    {
+      "title": "Optimizing Structures and Materials for Footwear-based Piezoelectric Nanogenerator",
+      "event": "Third International Conference on Material Science and Manufacturing Technology (ICMSMT)",
+      "year": "2021",
+      "kind": "Conference presentation"
+    }
+  ],
+  "cvSkills": [
+    {
+      "name": "Semiconductor Packaging",
+      "keywords": [
+        "Pressureless Ag sintering",
+        "Die attach",
+        "Wire bonding",
+        "Press-pack assembly",
+        "Encapsulation",
+        "Plasma cleaning",
+        "Vacuum degassing",
+        "AMB AlN substrates"
+      ]
+    },
+    {
+      "name": "Package Characterization",
+      "keywords": [
+        "Profilometry",
+        "Digital microscopy",
+        "Bond shear testing",
+        "Wire-bond pull testing",
+        "Die shear testing",
+        "Partial discharge testing",
+        "High-voltage dielectric testing"
+      ]
+    },
+    {
+      "name": "Process & Reliability Methods",
+      "keywords": [
+        "Design of experiments (OFAT)",
+        "Statistical process control",
+        "Shewhart charts",
+        "ANOVA",
+        "FMEA",
+        "Root cause analysis",
+        "DFx",
+        "Manufacturing travelers",
+        "SOP development",
+        "Weibull analysis"
+      ]
+    },
+    {
+      "name": "Engineering Software & Programming",
+      "keywords": [
+        "MATLAB",
+        "Python",
+        "C",
+        "COMSOL Multiphysics",
+        "Ansys Q3D",
+        "LTspice",
+        "Cadence Virtuoso",
+        "JMP"
+      ]
+    },
+    {
+      "name": "Standards & Practices",
+      "keywords": [
+        "MIL-STD-883",
+        "AEC-Q101",
+        "EHS practices"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "Native or bilingual proficiency"
+    },
+    {
+      "name": "Malayalam",
+      "proficiency": "Native or bilingual proficiency"
+    }
+  ],
+  "laboratoryEquipment": [
+    {
+      "name": "Microscopy & Profilometry",
+      "items": [
+        "VHX-970F digital microscope",
+        "Keyence optical profilometer"
+      ]
+    },
+    {
+      "name": "Electrical & Reliability Testing",
+      "items": [
+        "Phenix dielectric test setup",
+        "OMICRON MPD 600",
+        "XYZTEC Sigma bondtester"
+      ]
+    },
+    {
+      "name": "Bonding & Assembly",
+      "items": [
+        "Finetech die bonder",
+        "HB05 wedge and ball bonder"
+      ]
+    },
+    {
+      "name": "Thermal & Surface Processing",
+      "items": [
+        "Vacuum oven",
+        "Furnace",
+        "Tergeo Plus plasma cleaner",
+        "Branson ultrasonic cleaner"
+      ]
+    }
   ]
 }
-
-
-
-

@@ -38,3 +38,24 @@ a {
   background-color: var(--bs-white);
   border-top: none;
 }
+
+
+/* Portfolio refresh: readable sections and anchored navigation. */
+html { scroll-behavior: smooth; }
+section[id], div[id] { scroll-margin-top: 5rem; }
+#experience { background-color: var(--bs-gray-100); }
+#skills { background-color: var(--bs-gray-100); }
+#experience .card, #skills .card { border-radius: 0.75rem; }
+#about p { max-width: 60rem; }
+@media (max-width: 575.98px) {
+  #about h1 { font-size: 2rem; }
+  .navbar-brand { font-size: 1rem; }
+}
+
+/* Community engagement: balanced featured images and compact optional gallery. */
+.community-featured-img { width: 100%; height: 280px; object-fit: cover; }
+.community-gallery-img { width: 100%; height: 160px; object-fit: cover; transition: opacity .2s ease; }
+.community-gallery-img:hover { opacity: .85; }
+.community-gallery-details summary { cursor: pointer; }
+.community-gallery-details summary:focus-visible { outline: 2px solid var(--bs-primary); outline-offset: 3px; }
+@media(max-width: 767.98px) { .community-featured-img { height: 210px; } .community-gallery-img { height: 130px; } }

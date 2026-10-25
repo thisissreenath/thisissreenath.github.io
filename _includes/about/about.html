@@ -1,47 +1,28 @@
-<div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
+<section class="bg-gradient py-5" style="background-color: var(--tf-page-bg-color)" id="about" aria-labelledby="about-heading">
   <div class="container">
-    <div class="row">
+    <div class="row align-items-center gy-4">
       <div class="col-lg-4">
-        <img width="300px" src="{{ site.data.bio.basics.picture }}" class="d-block mx-auto rounded-circle">
+        <img width="260" height="260" src="{{ site.data.bio.basics.picture }}" alt="Portrait of {{ site.data.bio.basics.name }}" class="d-block mx-auto rounded-circle img-fluid" style="object-fit: cover;">
       </div>
       <div class="col-lg-8">
-        <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
-        <p class="lead text-center">{{ site.data.bio.basics.label }}</p>
-        <p class="lead">{{ site.data.bio.basics.summary }}</p>
-        <hr class="my-4">
-        <p class="lead m-0">
-          Interests:
-          {% for interest in site.data.bio.interests %}
-          {{ interest.name }}{% if forloop.last != true %}, {% endif %}
-          {% endfor %}
+        <h1 class="display-5 fw-bold mb-2" id="about-heading">{{ site.data.bio.basics.name }}</h1>
+        <p class="lead fw-semibold mb-3">{{ site.data.bio.basics.label }}</p>
+        <p class="mb-3">{{ site.data.bio.basics.summary }}</p>
+        <p class="mb-3"><strong>Research interests:</strong>
+          {% for interest in site.data.bio.interests %}{{ interest.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}
         </p>
-        <hr class="my-4">
-        <div class="row">
-
-          {% if site.data.bio.basics.website %}
-            {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
-            <div class="col text-center">
-              {% include about/social.html url=url name='house' %}
-            </div>
-          {% endif %}
-
+        <div class="d-flex flex-wrap gap-3 align-items-center">
           {% if site.data.bio.basics.email %}
-            {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
-            <div class="col text-center">
-              {% include about/social.html url=url name='envelope' %}
-            </div>
+          <a href="mailto:{{ site.data.bio.basics.email }}" aria-label="Email">Email</a>
           {% endif %}
-
           {% for profile in site.data.bio.basics.profiles %}
-            {% capture url %}{{ profile.url }}{% endcapture %}
-            {% capture name %}{{ profile.network | downcase }}{% endcapture %}
-            <div class="col text-center">
-              {% include about/social.html url=url name=name %}
-            </div>
+          {% unless profile.network == 'instagram' or profile.network == 'github' %}
+          <a href="{{ profile.url }}" target="_blank" rel="noopener noreferrer">{{ profile.network | capitalize }}</a>
+          {% endunless %}
           {% endfor %}
-
+          <a href="{{ '/resume.html' | relative_url }}" class="btn btn-outline-primary btn-sm">View CV</a>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>

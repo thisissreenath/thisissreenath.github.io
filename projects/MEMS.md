@@ -2,18 +2,37 @@
 layout: project
 type: project
 image: img/mems1.png
-title: "MEMS Fabricated, Flexible Glucose Sweat Sensor"
+title: "MEMS-Based Flexible Sweat Glucose Sensor"
 date: 2023
 published: true
 labels:
   - MEMS
-  - Semiconductor Processing
-  - Fabrication
-summary: "An enzyme-immobilized, non-invasive sweat sensor concept for continuous glucose monitoring under the guidance of Dr. Masoud Agah."
+  - Biosensors
+  - Semiconductor Fabrication
+summary: "Academic research project exploring an enzyme-based, flexible sweat glucose sensor using microfabrication and electrochemical characterization."
 ---
 
-<img class="img-fluid" src="../img/mems.png">
+<img class="img-fluid mb-3" src="{{ '/img/mems.png' | relative_url }}" alt="MEMS sweat glucose sensor project illustration">
 
-Type 1 Diabetes is a growing epidemic across the world, and without a cure currently available sophisticated means of administering insulin and monitoring blood glucose levels are needed to ensure that diabetics are healthy and have quality of life. Current glucose monitors are: invasive, have a lot of waste, are expensive, and need to be replaced, on average, every fourteen days. The invasiveness of the current sensors causes excessive scar tissue development which reduces effective insulin absorption and requires regular injections for diabetics. The majority of Type 1 diabetics are diagnosed in the juvenile stage of life; resulting in juveniles having to constantly use needles causing a severe impact on quality of life. This project successfully proposed and showed successful glucose measurements of a MEMS-fabricated, flexible sweat sensor. This sensor is coated with adhesives making it able to be applied to many areas and generate sweat efficiently; it is also not limited to a short enzyme life span which allows it to be used for an above-average time frame. The overall design and results from this project reflect on the next generation of glucose monitors that bring diabetics one step closer to having an autonomous and minimally invasive way of managing their diabetes.
+## Overview
 
-Source: <a href="MEMS_Project_Report.pdf">MEMS Fabricated, Flexible Glucose Sweat Sensor</a>
+This Virginia Tech project investigated a flexible, enzyme-based sensor concept for measuring glucose in sweat. The goal was to explore less invasive sensing approaches using microelectromechanical systems (MEMS) fabrication techniques.
+
+The work was completed under the guidance of Dr. Masoud Agah.
+
+## My contributions
+
+- Investigated sensor architecture, electrode materials, and enzyme immobilization for electrochemical glucose detection.
+- Worked with microfabrication concepts and processes including **photolithography**, thin-film deposition, and **reactive ion etching (RIE)**.
+- Studied electrochemical characterization methods, including **cyclic voltammetry**, and evaluated design and fabrication considerations.
+- Contributed to technical analysis and documentation of the proposed sensor design.
+
+## Methods and tools
+
+MEMS fabrication · Photolithography · Thin-film processing · Electrochemical sensing · Cyclic voltammetry · Biosensor design
+
+## What this work demonstrates
+
+Interdisciplinary research connecting semiconductor processing, materials, device design, and bioelectronics. This was an academic research prototype, **not a clinically validated glucose-monitoring device**.
+
+**Project report:** [MEMS Fabricated, Flexible Glucose Sweat Sensor](MEMS_Project_Report.pdf)
