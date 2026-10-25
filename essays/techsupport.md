@@ -4,6 +4,8 @@ type: essay
 title: "Technical Support Fundamentals"
 date: 2020-08-23
 published: true
+certificate: "/essays/technicalsupport.pdf"
+summary: "Google course covering IT systems, hardware, networking and troubleshooting."
 labels:
   - Google
   - Technical Support
