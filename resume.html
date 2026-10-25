@@ -21,6 +21,8 @@ layout: home
         <span class="text-muted">{{ degree.endDate | slice: 5,2 }}/{{ degree.endDate | slice: 0,4 }}</span>
       </div>
       <p class="mb-1">{{ degree.institution }}</p>
+      {% if degree.honors %}<p class="mb-1"><strong>Honors:</strong> {{ degree.honors }}</p>{% endif %}
+      {% if degree.thesis %}<p class="mb-1"><strong>Thesis:</strong> {{ degree.thesis }}</p>{% endif %}
       {% if degree.courses %}<p class="small text-muted mb-0">Selected coursework: {{ degree.courses | join: ', ' }}</p>{% endif %}
     </article>
     {% endfor %}
