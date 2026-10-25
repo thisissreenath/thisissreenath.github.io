@@ -85,7 +85,7 @@ layout: home
   <section class="mb-5" aria-labelledby="cv-leadership"><h2 id="cv-leadership" class="h3 border-bottom pb-2">Leadership &amp; Service</h2>
     {% for activity in site.data.bio.volunteer %}
     <div class="mb-3"><h3 class="h6">{{ activity.position }}</h3>
-      {% if activity.startDate %}<p class="small text-muted mb-1">From {{ activity.startDate | slice: 5,2 }}/{{ activity.startDate | slice: 0,4 }}</p>{% endif %}
+      {% if activity.startDate %}<p class="small text-muted mb-1">Started {{ activity.startDate | slice: 5,2 }}/{{ activity.startDate | slice: 0,4 }}{% if activity.status == 'Completed' %} · Completed{% endif %}</p>{% endif %}
       {% if activity.summary %}<p>{{ activity.summary }}</p>{% endif %}
       {% if activity.highlights %}<ul>{% for item in activity.highlights %}<li>{{ item }}</li>{% endfor %}</ul>{% endif %}
     </div>
