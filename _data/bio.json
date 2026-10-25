@@ -134,7 +134,9 @@
         "Electronic Circuits",
         "Optimization Techniques",
         "Calculus"
-      ]
+      ],
+      "honors": "First Class Honors",
+      "thesis": "Piezo-Tribo Nanogenerator (PTNG) for Powering Wearable Electronic Gadgets"
     }
   ],
   "work": [
@@ -206,32 +208,6 @@
       ],
       "status": "Completed",
       "endDate": "2025-07"
-    },
-    {
-      "position": "Leadership",
-      "summary": "",
-      "highlights": [
-        "Rental Forecasting Tool, 2024-2024",
-        "Piezo-Tribo Nanogenerator (PTNG) for Powering Wearable Gadgets, 2019-2021",
-        "Student Publicity Group - VIDYUT, 2019-2020"
-      ]
-    },
-    {
-      "position": "Organizer",
-      "summary": "",
-      "highlights": [
-        "Student Social Responsibility - Orphanage Visit, 2019",
-        "Technical Workshops, Events, and Competitions - VIDYUT, 2019"
-      ]
-    },
-    {
-      "position": "Volunteer",
-      "summary": "",
-      "highlights": [
-        "Amrita Cube Open - World Cube Association, 2020",
-        "Beach Cleanup Drive, Amala Bharatam Campaign, 2018",
-        "Pamba Cleanup Drive - AYUDH, 2017"
-      ]
     }
   ],
   "awards": [
