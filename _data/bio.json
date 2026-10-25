@@ -159,37 +159,50 @@
       "startDate": "2024-11",
       "endDate": "2026-08",
       "summary": "Conducted laboratory fabrication, insulation testing, and experimental analysis for power electronics packaging research.",
-      "highlights": [
-        "Performed high-voltage partial discharge and dielectric strength testing using OMICRON MPD600 and Phoenix dielectric test equipment, analyzing inception, extinction, and breakdown behavior.",
-        "Prepared encapsulation specimens through material mixing, vacuum degassing, mold preparation, and controlled thermal curing.",
-        "Developed MATLAB-based workflows to record and analyze electrical testing and process measurements; used design-of-experiments and Weibull methods in reliability analysis.",
-        "Designed and fabricated a low-cost 3D-printed dielectric test fixture to support repeatable laboratory testing.",
-        "Documented experimental procedures and process conditions to improve consistency and traceability across testing batches."
-      ],
-      "category": "professional"
+      "highlights": [],
+      "category": "professional",
+      "projects": [
+        {
+          "title": "ONR — Evaluation of Insulation Degradation in 10 kV SiC Power Modules",
+          "highlights": [
+            "Applied one-factor-at-a-time (OFAT) design of experiments and statistical process analysis, including Shewhart methods and ANOVA, across more than 100 fabrication batches using MATLAB-based logging.",
+            "Developed and deployed an automated high-voltage testing workflow supporting over 3,000 tests and reducing testing cycle time by 46%.",
+            "Designed a laboratory test fixture that reduced fixture cost by 84%, and contributed to repeatable experimental procedures and process documentation.",
+            "Supported technical coordination and recurring progress reviews with a SiC device manufacturer."
+          ]
+        },
+        {
+          "title": "ARPA-E ULTRAFAST — E1 Arrester Press-Pack Module Assembly",
+          "highlights": [
+            "Assembled press-pack SiC power-module subassemblies using documented manufacturing procedures and lot-level travelers, with 100% post-assembly qualification yield.",
+            "Evaluated package integrity through bond shear testing, thermal-interface-material profilometry, and electrical continuity checks.",
+            "Designed a 3D-printed thermal-interface-material cutting fixture to improve thickness consistency and reduce manual variability during assembly."
+          ]
+        }
+      ]
     },
     {
       "company": "Smart IOPS Research Center",
-      "position": "Intern",
+      "position": "Performance Evaluation and Benchmarking Intern",
       "website": "https://smartiops.com/",
       "startDate": "2021-08-15",
       "endDate": "2022-03-31",
-      "summary": "Collaborated with an interdisciplinary team of hardware, software, and system engineers to develop a Smart Cluster Management Tool, improving system monitoring accuracy by 30%. Designed and implemented Python and C programs to retrieve real-time data for system performance testing, reducing system downtime by 10%. Conducted system-level testing and debugging, enhancing software stability by 15%.",
+      "summary": "Developed and evaluated system-monitoring software for a Smart Cluster Management Tool using Python and C in a UNIX/Linux environment.",
       "highlights": [
-        "Python Programming",
-        "C Programming",
-        "Software Development",
-        "UNIX Environment"
+        "Collaborated with hardware, software, and systems engineers to improve system monitoring accuracy by 30%.",
+        "Designed Python and C programs for real-time system performance monitoring and testing, contributing to a 10% reduction in system downtime.",
+        "Performed system-level testing and debugging, improving software stability by 15%."
       ],
       "category": "professional"
     }
   ],
   "volunteer": [
     {
-      "position": "Conference Presentation",
-      "summary": "",
+      "position": "Volunteer — Bradley Department of Electrical and Computer Engineering, Virginia Tech",
+      "startDate": "2024-09",
+      "summary": "Supported instructional resource development for electrical and computer engineering coursework.",
       "highlights": [
-        "Third International Conference on Material Science and Manufacturing Technology - Optimizing Structures and Materials for Footwear-based Piezoelectric Nanogenerator, 2021"
+        "Developed MATLAB- and Python-based educational resources for ECE 3614 (Introduction to Communication Systems)."
       ]
     },
     {
@@ -221,16 +234,10 @@
   ],
   "awards": [
     {
-      "title": "Government Grant",
+      "title": "Research Grant — Piezo-Tribo Nanogenerator",
       "date": "2021",
       "awarder": "Kerala State Council for Science, Technology and Environment (KSCSTE)",
-      "summary": "Project - Flexible Piezo Tribo Nanogenerator (PTNG) for Powering Wearable Gadgets."
-    },
-    {
-      "title": "Sharing and Caring",
-      "date": "2016-2017",
-      "awarder": "Amrita Vidyalayam",
-      "summary": ""
+      "summary": "KSCSTE support for undergraduate research on a flexible piezoelectric–triboelectric nanogenerator for wearable electronics."
     }
   ],
   "references": [
@@ -268,27 +275,6 @@
       "organization": "Amrita Vishwa Vidyapeetham",
       "period": "2019-01 – 2021-05",
       "summary": "Developed an energy-harvesting nanogenerator, optimizing material configuration to improve energy conversion efficiency by 30%. Simulated the nanogenerator model using COMSOL Multiphysics, troubleshooting issues and ensuring compliance with design specifications. Presented findings at ICMSMT 2021, demonstrating innovation in renewable energy and showcasing strong documentation, presentation, and communication skills."
-    }
-  ],
-  "researchPrograms": [
-    {
-      "title": "ONR — Evaluation of Insulation Degradation in 10 kV SiC Power Modules",
-      "organization": "Virginia Tech CPES",
-      "highlights": [
-        "Applied one-factor-at-a-time (OFAT) design of experiments and statistical process analysis, including Shewhart methods and ANOVA, across more than 100 fabrication batches using MATLAB-based logging.",
-        "Developed and deployed an automated high-voltage testing workflow supporting over 3,000 tests and reducing testing cycle time by 46%.",
-        "Designed a laboratory test fixture that reduced fixture cost by 84%, and contributed to repeatable experimental procedures and process documentation.",
-        "Supported technical coordination and recurring progress reviews with a SiC device manufacturer."
-      ]
-    },
-    {
-      "title": "ARPA-E ULTRAFAST — E1 Arrester Press-Pack Module Assembly",
-      "organization": "Virginia Tech CPES",
-      "highlights": [
-        "Assembled press-pack SiC power-module subassemblies using documented manufacturing procedures and lot-level travelers, with 100% post-assembly qualification yield.",
-        "Evaluated package integrity through bond shear testing, thermal-interface-material profilometry, and electrical continuity checks.",
-        "Designed a 3D-printed thermal-interface-material cutting fixture to improve thickness consistency and reduce manual variability during assembly."
-      ]
     }
   ],
   "conferencePresentations": [
