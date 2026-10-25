@@ -34,21 +34,20 @@ layout: home
         <span class="text-muted">{{ role.startDate | slice: 5,2 }}/{{ role.startDate | slice: 0,4 }} – {% if role.endDate == 'Present' %}Present{% else %}{{ role.endDate | slice: 5,2 }}/{{ role.endDate | slice: 0,4 }}{% endif %}</span>
       </div>
       <p class="mb-2">{{ role.summary }}</p>
-      {% if role.highlights %}<ul>{% for item in role.highlights %}<li>{{ item }}</li>{% endfor %}</ul>{% endif %}
+      {% if role.highlights and role.highlights.size > 0 %}<ul>{% for item in role.highlights %}<li>{{ item }}</li>{% endfor %}</ul>{% endif %}
+      {% if role.projects %}
+        {% for project in role.projects %}
+          <div class="ms-md-3 mb-3">
+            <h4 class="h6 fw-semibold mb-1">{{ project.title }}</h4>
+            <ul>{% for bullet in project.highlights %}<li>{{ bullet }}</li>{% endfor %}</ul>
+          </div>
+        {% endfor %}
+      {% endif %}
     </article>
     {% endfor %}
   </section>
 
-  <section class="mb-5" aria-labelledby="cv-programs"><h2 id="cv-programs" class="h3 border-bottom pb-2">Selected Research Programs</h2>
-    {% for program in site.data.bio.researchPrograms %}
-    <article class="mb-4"><h3 class="h5">{{ program.title }}</h3>
-      <p class="text-muted mb-2">{{ program.organization }}</p>
-      <ul>{% for item in program.highlights %}<li>{{ item }}</li>{% endfor %}</ul>
-    </article>
-    {% endfor %}
-  </section>
-
-  <section class="mb-5" aria-labelledby="cv-projects"><h2 id="cv-projects" class="h3 border-bottom pb-2">Research &amp; Academic Projects</h2>
+<section class="mb-5" aria-labelledby="cv-projects"><h2 id="cv-projects" class="h3 border-bottom pb-2">Research &amp; Academic Projects</h2>
     {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
     {% for project in project_pages %}
     {% unless project.draft %}
@@ -66,6 +65,12 @@ layout: home
     {% endfor %}
   </section>
 
+  <section class="mb-5" aria-labelledby="cv-awards"><h2 id="cv-awards" class="h3 border-bottom pb-2">Awards &amp; Grants</h2>
+    {% for award in site.data.bio.awards %}
+      <p><strong>{{ award.title }}</strong> — {{ award.awarder }} ({{ award.date }})<br>{{ award.summary }}</p>
+    {% endfor %}
+  </section>
+
   <section class="mb-5" aria-labelledby="cv-skills"><h2 id="cv-skills" class="h3 border-bottom pb-2">Technical Skills &amp; Methods</h2>
     {% for group in site.data.bio.cvSkills %}
     <p class="mb-2"><strong>{{ group.name }}:</strong> {{ group.keywords | join: ', ' }}</p>
@@ -80,6 +85,8 @@ layout: home
   <section class="mb-5" aria-labelledby="cv-leadership"><h2 id="cv-leadership" class="h3 border-bottom pb-2">Leadership &amp; Service</h2>
     {% for activity in site.data.bio.volunteer %}
     <div class="mb-3"><h3 class="h6">{{ activity.position }}</h3>
+      {% if activity.startDate %}<p class="small text-muted mb-1">{{ activity.startDate | slice: 5,2 }}/{{ activity.startDate | slice: 0,4 }} – Present</p>{% endif %}
+      {% if activity.summary %}<p>{{ activity.summary }}</p>{% endif %}
       {% if activity.highlights %}<ul>{% for item in activity.highlights %}<li>{{ item }}</li>{% endfor %}</ul>{% endif %}
     </div>
     {% endfor %}
