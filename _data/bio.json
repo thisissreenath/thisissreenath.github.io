@@ -200,10 +200,11 @@
     {
       "position": "Volunteer — Bradley Department of Electrical and Computer Engineering, Virginia Tech",
       "startDate": "2024-09",
-      "summary": "Supported instructional resource development for electrical and computer engineering coursework.",
+      "summary": "Volunteered with the Bradley Department of Electrical and Computer Engineering at Virginia Tech, supporting instructional resource development for electrical engineering coursework.",
       "highlights": [
         "Developed MATLAB- and Python-based educational resources for ECE 3614 (Introduction to Communication Systems)."
-      ]
+      ],
+      "status": "Completed"
     },
     {
       "position": "Leadership",
@@ -234,10 +235,10 @@
   ],
   "awards": [
     {
-      "title": "Research Grant — Piezo-Tribo Nanogenerator",
+      "title": "KSCSTE Research Grant — Piezo-Tribo Nanogenerator",
       "date": "2021",
       "awarder": "Kerala State Council for Science, Technology and Environment (KSCSTE)",
-      "summary": "KSCSTE support for undergraduate research on a flexible piezoelectric–triboelectric nanogenerator for wearable electronics."
+      "summary": "Awarded a research grant by the Kerala State Council for Science, Technology and Environment (KSCSTE) in support of undergraduate research on a flexible piezoelectric–triboelectric nanogenerator for wearable electronics."
     }
   ],
   "references": [
