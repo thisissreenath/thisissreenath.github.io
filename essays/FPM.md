@@ -4,6 +4,8 @@ type: essay
 title: "Foundations of Project Management"
 date: 2023-10-24
 published: true
+certificate: "/essays/fpm.pdf"
+summary: "Google course covering project management fundamentals, lifecycle and planning."
 labels:
   - Project Management
   - Google
