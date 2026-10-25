@@ -325,5 +325,47 @@
         "EHS practices"
       ]
     }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "Native or bilingual proficiency"
+    },
+    {
+      "name": "Malayalam",
+      "proficiency": "Native or bilingual proficiency"
+    }
+  ],
+  "laboratoryEquipment": [
+    {
+      "name": "Microscopy & Profilometry",
+      "items": [
+        "VHX-970F digital microscope",
+        "Keyence optical profilometer"
+      ]
+    },
+    {
+      "name": "Electrical & Reliability Testing",
+      "items": [
+        "Phenix dielectric test setup",
+        "OMICRON MPD 600",
+        "XYZTEC Sigma bondtester"
+      ]
+    },
+    {
+      "name": "Bonding & Assembly",
+      "items": [
+        "Finetech die bonder",
+        "HB05 wedge and ball bonder"
+      ]
+    },
+    {
+      "name": "Thermal & Surface Processing",
+      "items": [
+        "Vacuum oven",
+        "Furnace",
+        "Tergeo Plus plasma cleaner"
+      ]
+    }
   ]
 }
