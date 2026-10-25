@@ -4,6 +4,8 @@ type: essay
 title: "Semiconductor Fabrication 101"
 date: 2024-06-14
 published: true
+certificate: "/essays/semifab.pdf"
+summary: "Course introducing semiconductor fabrication processes and virtual laboratory methods."
 labels:
   - Semiconductor Fabrication
   - Purdue University
