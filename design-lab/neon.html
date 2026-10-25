@@ -1,0 +1,130 @@
+---
+layout: null
+title: "Neon Circuit — Portfolio Layout Concept"
+permalink: /design-lab/neon/
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#091018">
+  <meta name="description" content="An experimental futuristic portfolio layout for Sreenath Krishnan Potty.">
+  <title>Neon Circuit · {{ site.data.bio.basics.name }}</title>
+  <link rel="stylesheet" href="{{ '/design-lab/lab.css' | relative_url }}">
+</head>
+<body class="neon">
+  <header class="n-nav">
+    <div class="n-wrap n-nav-inner">
+      <a class="n-logo" href="#home" aria-label="Back to top">S<span>/</span>P.</a>
+      <nav class="n-links" aria-label="Page sections">
+        <a href="#work">Experience</a><a href="#projects">Projects</a><a href="#expertise">Expertise</a><a href="#contact">Contact</a>
+      </nav>
+      <div class="lab-switch" aria-label="Switch concept">
+        <a aria-current="page" href="{{ '/design-lab/neon/' | relative_url }}">01</a>
+        <a href="{{ '/design-lab/editorial/' | relative_url }}" title="Switch to editorial design">02 ↗</a>
+        <a href="{{ '/design-lab/' | relative_url }}" title="All designs">All</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <div class="n-wrap">
+      <section class="n-hero" aria-labelledby="n-title">
+        <div>
+          <span class="n-pill n-mono"><span class="n-pulse" aria-hidden="true"></span> PORTFOLIO // ELECTRICAL ENGINEERING</span>
+          <h1 id="n-title"><span class="line">SREENATH</span><span class="line stroke">KRISHNAN</span><span class="line accent">POTTY<span style="color:#dffcf5">.</span></span></h1>
+          <p class="n-sub">Bringing experimental rigor to power electronics packaging, semiconductor reliability, and advanced engineering systems.</p>
+          <div class="n-actions">
+            <a class="n-btn" href="#projects">Explore research <span aria-hidden="true">↗</span></a>
+            <a class="n-btn alt" href="{{ '/resume.html' | relative_url }}">Read full CV <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <aside class="n-panel" aria-label="Research profile">
+          <div class="n-panel-bar">
+            <span>PROFILE / RESEARCH</span>
+            <span class="n-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+          </div>
+          <div class="n-photo"><img src="{{ site.data.bio.basics.picture }}" alt="Portrait of {{ site.data.bio.basics.name }}"></div>
+          <p class="n-mono n-color" style="margin:0">RESEARCHER / ENGINEER</p>
+          <h2>Making reliability measurable.</h2>
+          <p style="color:#abbec3;font-size:14px;line-height:1.5;margin:8px 0 20px">Experimental research, process development and hands-on laboratory engineering.</p>
+          <div class="n-detail"><span class="n-mono n-muted">LOCATION</span><strong>{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }}</strong></div>
+          <div class="n-detail"><span class="n-mono n-muted">CURRENT</span><strong>Laboratory Associate · Virginia Tech CPES</strong></div>
+          <div class="n-detail"><span class="n-mono n-muted">EDUCATION</span><strong>M.S. Electrical Engineering · Virginia Tech</strong></div>
+        </aside>
+      </section>
+    </div>
+
+    <div class="n-strip" aria-label="Research areas">
+      <div class="n-wrap">
+        <span class="n-mono n-color">AREAS OF FOCUS //</span>
+        <span class="n-mono">SEMICONDUCTOR PACKAGING</span>
+        <span class="n-mono">DIELECTRIC RELIABILITY</span>
+        <span class="n-mono">PROCESS CHARACTERIZATION</span>
+        <span class="n-mono">ENGINEERING RESEARCH</span>
+      </div>
+    </div>
+
+    <section class="n-section" id="work" aria-labelledby="n-work">
+      <div class="n-wrap">
+        <div class="n-section-title"><div><span class="n-mono">01 / EXPERIENCE LOG</span><h2 id="n-work">Where I've worked<span class="n-color">.</span></h2></div><span class="n-mono n-index">FIELD RECORD / 03</span></div>
+        <div class="n-jobs">
+          {% for job in site.data.bio.work %}
+            <article class="n-job">
+              <span class="n-mono n-color">{{ job.company | split: ',' | first }}</span>
+              <div><h3>{{ job.position }}</h3><p>{{ job.summary }}</p></div>
+              <time class="n-mono">{{ job.startDate | slice: 0,4 }} — {% if job.endDate == 'Present' %}NOW{% else %}{{ job.endDate | slice: 0,4 }}{% endif %}</time>
+            </article>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="n-section" id="projects" aria-labelledby="n-project-title">
+      <div class="n-wrap">
+        <div class="n-section-title"><div><span class="n-mono">02 / RESEARCH ARCHIVE</span><h2 id="n-project-title">Selected projects<span class="n-color">.</span></h2></div><a class="n-mono n-color" href="{{ '/projects/' | relative_url }}">ALL PROJECTS ↗</a></div>
+        <div class="n-projects">
+          {% assign lab_projects = site.pages | where: "type", "project" | sort: "date" | reverse %}
+          {% for project in lab_projects limit: 5 %}
+            {% unless project.draft %}
+              <a class="n-project" href="{{ project.url | relative_url }}">
+                <div><span class="n-mono n-color">PROJECT // 0{{ forloop.index }} &nbsp; · &nbsp; {{ project.date }}</span><h3>{{ project.title }}</h3><p>{{ project.summary }}</p></div>
+                <div class="n-project-footer"><span class="n-mono">{{ project.labels | first | default: "ENGINEERING" }}</span><span aria-hidden="true">↗</span></div>
+              </a>
+            {% endunless %}
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="n-section" id="expertise" aria-labelledby="n-skills-title">
+      <div class="n-wrap">
+        <div class="n-section-title"><div><span class="n-mono">03 / CAPABILITIES</span><h2 id="n-skills-title">Engineering toolkit<span class="n-color">.</span></h2></div><span class="n-mono n-index">TOOLS + METHODS</span></div>
+        <div class="n-skills">
+          {% for skill in site.data.bio.skills %}
+            <article class="n-skill">
+              <span class="n-mono n-color">0{{ forloop.index }} / FIELD</span>
+              <h3>{{ skill.name }}</h3>
+              <p>{{ skill.keywords | join: " / " }}</p>
+            </article>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="n-contact" id="contact" aria-labelledby="n-contact-title">
+      <div class="n-wrap">
+        <div>
+          <span class="n-mono n-color">04 / CONTACT</span>
+          <h2 id="n-contact-title">Let's build<br><span class="n-color">something better.</span></h2>
+          <p style="color:#adcdca;max-width:520px;line-height:1.65">Interested in semiconductor research, reliability engineering, or technical collaboration? I'd love to connect.</p>
+          <a href="https://linkedin.com/in/sreenath-k" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+        <a class="n-btn" href="mailto:{{ site.data.bio.basics.email }}">Get in touch ↗</a>
+      </div>
+    </section>
+  </main>
+  <footer class="n-foot"><div class="n-wrap"><span class="n-mono">© {{ 'now' | date: "%Y" }} {{ site.data.bio.basics.name }}</span><span class="n-mono">EXPERIMENTAL LAYOUT · <a href="{{ '/design-lab/' | relative_url }}">COMPARE DESIGNS</a></span></div></footer>
+</body>
+</html>
