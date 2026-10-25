@@ -1,17 +1,21 @@
-<div class="col-md-6 col-lg-4" xmlns="http://www.w3.org/1999/html">
-  <div class="card h-100">
+<div class="col-md-6 col-lg-4">
+  <article class="card h-100">
     <div class="card-body">
-      <h5 class="card-title">{{ include.page.title }}</h5>
-      <p class="card-text"><small class="text-muted">{{ include.page.date | date_to_string }}</small></p>
-      <p class="card-text">{{ include.page.content | markdownify | strip_html | truncatewords: 40 }}</p>
-      <p>
+      <h3 class="h5 card-title">{{ include.page.title }}</h3>
+      <p class="small text-muted">{{ include.page.date | date: "%d %b %Y" }}</p>
+      <p class="card-text">{{ include.page.summary | default: include.page.description | default: "Coursework and professional development credential." }}</p>
+      <div class="d-flex flex-wrap gap-1">
         {% for label in include.page.labels %}
-        <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
+        <span class="badge rounded-pill" style="background-color: var(--tf-pill-bg)">{{ label }}</span>
         {% endfor %}
-      </p>
+      </div>
     </div>
-    <div class="card-footer">
-      <div class="text-center"><a href="{% if page.essayurl %}{{ page.essayurl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}" class="btn btn-outline-dark">Read More</a></div>
+    <div class="card-footer text-center">
+      {% if include.page.certificate %}
+        <a class="btn btn-outline-dark" href="{{ include.page.certificate | relative_url }}" target="_blank" rel="noopener noreferrer">View Certificate</a>
+      {% else %}
+        <a class="btn btn-outline-dark" href="{{ include.page.url | relative_url }}">Details</a>
+      {% endif %}
     </div>
-  </div>
+  </article>
 </div>
