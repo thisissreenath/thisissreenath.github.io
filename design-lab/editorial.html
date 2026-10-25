@@ -1,0 +1,62 @@
+---
+layout: null
+title: "Editorial Atelier — Portfolio Layout Concept"
+permalink: /design-lab/editorial/
+---
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f1e9"><title>Editorial Atelier · {{ site.data.bio.basics.name }}</title><link rel="stylesheet" href="{{ '/design-lab/lab.css' | relative_url }}"></head>
+<body class="editorial">
+<header class="e-nav"><div class="e-wrap e-navinner">
+  <a class="e-mark" href="#home">Sreenath <span>Potty.</span></a>
+  <nav class="e-links" aria-label="Sections"><a href="#projects">Selected work</a><a href="#experience">Experience</a><a href="#expertise">Expertise</a><a href="#contact">Contact</a></nav>
+  <div class="lab-switch"><a href="{{ '/design-lab/neon/' | relative_url }}">01</a><a aria-current="page" href="{{ '/design-lab/editorial/' | relative_url }}">02</a><a href="{{ '/design-lab/' | relative_url }}">All</a></div>
+</div></header>
+<main id="home">
+<section class="e-hero e-wrap">
+  <div><span class="e-label">ENGINEERING / RESEARCH / EXPLORATION</span><div class="e-smallrule"></div>
+    <h1>Engineering<br><em>with</em> purpose.</h1>
+    <p class="e-lead">I'm <strong>{{ site.data.bio.basics.name }}</strong>, an electrical engineer working at the intersection of power electronics, semiconductor packaging and experimental reliability research.</p>
+    <a class="e-text-link" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+    <p class="e-label" style="margin-top:64px;color:#687165">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} &nbsp; / &nbsp; VIRGINIA TECH CPES</p>
+  </div>
+  <div class="e-art"><img src="{{ site.data.bio.basics.picture }}" alt="Portrait of {{ site.data.bio.basics.name }}"></div>
+</section>
+<div class="e-wrap e-notes"><span class="e-number">01</span><p>Research that moves between <em class="e-serif" style="font-size:1.3em">materials, devices and systems</em>—turning complex engineering challenges into meaningful, measurable work.</p></div>
+<section class="e-section" id="projects"><div class="e-wrap">
+  <div class="e-section-head"><div><span class="e-label">THE PORTFOLIO / 2023—2026</span><h2>Selected work</h2></div><a class="e-label" href="{{ '/projects/' | relative_url }}">VIEW ALL PROJECTS ↗</a></div>
+  {% assign lab_projects = site.pages | where: "type", "project" | sort: "date" | reverse %}
+  {% for project in lab_projects limit: 6 %}
+    {% unless project.draft %}
+    <a class="e-list-project" href="{{ project.url | relative_url }}">
+      <span class="num">{{ forloop.index | prepend: "0" }}</span><h3>{{ project.title }}</h3><p>{{ project.summary | truncatewords: 26 }}</p><span class="arrow">↗</span>
+    </a>
+    {% endunless %}
+  {% endfor %}
+</div></section>
+<section class="e-section" id="experience"><div class="e-wrap">
+  <div class="e-section-head"><div><span class="e-label">WHERE I'VE WORKED</span><h2>Experience</h2></div><a class="e-label" href="{{ '/resume.html' | relative_url }}">FULL CURRICULUM VITAE ↗</a></div>
+  <div class="e-experience">
+    <div><p class="e-experience-intro">Engineering experience shaped by <em>curiosity, precision and practical problem-solving.</em></p></div>
+    <div class="e-experience-list">
+      {% for job in site.data.bio.work %}
+      <article class="e-job"><div class="e-job-head"><h3>{{ job.position }}</h3><time>{{ job.startDate | slice: 0,4 }}—{% if job.endDate == 'Present' %}NOW{% else %}{{ job.endDate | slice: 0,4 }}{% endif %}</time></div>
+        <p style="font-weight:700;margin:0 0 7px">{{ job.company }}</p><p>{{ job.summary }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</div></section>
+<section class="e-section" id="expertise"><div class="e-wrap">
+  <div class="e-section-head"><div><span class="e-label">EXPERTISE & TOOLS</span><h2>Areas of practice</h2></div><span class="e-label">SKILLS / METHODS</span></div>
+  <div class="e-practice">
+    {% for skill in site.data.bio.skills limit: 3 %}
+    <article class="e-practice-item"><span class="e-label">0{{ forloop.index }} / SPECIALTY</span><h3>{{ skill.name }}</h3><p>{{ skill.keywords | join: " · " }}</p></article>
+    {% endfor %}
+  </div>
+  <div style="margin-top:30px"><a class="e-text-link" href="{{ '/resume.html' | relative_url }}">All technical skills & credentials ↗</a></div>
+</div></section>
+<section class="e-contact" id="contact"><div class="e-wrap"><span class="e-label" style="color:#d6a783">LET'S CONNECT</span><h2>Ideas become<br><em>better together.</em></h2><p style="max-width:520px;line-height:1.8;color:#c6c5bb">Open to conversations about engineering, research, and technical collaboration.</p><a class="e-text-link" href="mailto:{{ site.data.bio.basics.email }}">Start a conversation ↗</a></div></section>
+</main>
+<footer class="e-footer"><div class="e-wrap"><span>© {{ 'now' | date: "%Y" }} {{ site.data.bio.basics.name }}</span><span>Experimental concept · <a href="{{ '/design-lab/' | relative_url }}">Compare the layouts</a> · <a href="{{ '/' | relative_url }}">Original portfolio</a></span></div></footer>
+</body></html>
