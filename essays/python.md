@@ -4,6 +4,8 @@ type: essay
 title: "Crash Course on Python"
 date: 2020-09-22
 published: true
+certificate: "/essays/python.pdf"
+summary: "Google course in foundational Python programming and problem-solving."
 labels:
   - Google
   - Python
