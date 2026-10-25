@@ -79,9 +79,23 @@ layout: home
     {% endfor %}
   </section>
 
+  <section class="mb-5" aria-labelledby="cv-equipment">
+    <h2 id="cv-equipment" class="h3 border-bottom pb-2">Laboratory Equipment &amp; Instrumentation</h2>
+    {% for group in site.data.bio.laboratoryEquipment %}
+      <p class="mb-2"><strong>{{ group.name }}:</strong> {{ group.items | join: ', ' }}</p>
+    {% endfor %}
+  </section>
+
   <section class="mb-5" aria-labelledby="cv-certifications"><h2 id="cv-certifications" class="h3 border-bottom pb-2">Certifications &amp; Training</h2>
     {% assign certs = site.pages | where: "type", "essay" | sort: "date" | reverse %}
     <ul>{% for cert in certs %}{% unless cert.draft %}<li><a href="{{ cert.url | relative_url }}">{{ cert.title }}</a> — {{ cert.date | date: "%B %Y" }}</li>{% endunless %}{% endfor %}</ul>
+  </section>
+
+  <section class="mb-5" aria-labelledby="cv-languages">
+    <h2 id="cv-languages" class="h3 border-bottom pb-2">Languages</h2>
+    {% for language in site.data.bio.languages %}
+      <p class="mb-2"><strong>{{ language.name }}:</strong> {{ language.proficiency }}</p>
+    {% endfor %}
   </section>
 
   <section class="mb-5" aria-labelledby="cv-leadership"><h2 id="cv-leadership" class="h3 border-bottom pb-2">Leadership &amp; Service</h2>
