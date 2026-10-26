@@ -1,0 +1,21 @@
+<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true">
+{% case include.name %}
+  {% when 'experience' %}
+    <rect x="3" y="7" width="18" height="14" rx="2"></rect>
+    <path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12c4 3 14 3 18 0M12 12v3"></path>
+  {% when 'projects' %}
+    <rect x="5" y="5" width="14" height="14" rx="2"></rect>
+    <rect x="9" y="9" width="6" height="6" rx="1"></rect>
+    <path d="M9 1v4m6-4v4M9 19v4m6-4v4M1 9h4m-4 6h4m14-6h4m-4 6h4"></path>
+  {% when 'skills' %}
+    <path d="M14.7 6.3a6 6 0 0 0-7.9 7.9L3.2 17.8a2 2 0 0 0 2.8 2.8l3.6-3.6a6 6 0 0 0 7.9-7.9l-4 4-3.3-3.3 4.5-3.5z"></path>
+  {% when 'certifications' %}
+    <circle cx="12" cy="8" r="5"></circle>
+    <path d="m8.5 12.5-1 9 4.5-2.5 4.5 2.5-1-9"></path>
+    <path d="m10 8 1.4 1.4L14 6.7"></path>
+  {% when 'community' %}
+    <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8z"></path>
+  {% else %}
+    <circle cx="12" cy="12" r="9"></circle>
+{% endcase %}
+</svg>
