@@ -1,6 +1,6 @@
 <section class="bg-white py-5" id="extra" aria-labelledby="community-heading">
   <div class="container">
-    <h2 class="display-6 fw-semibold mb-2" id="community-heading">Community Engagement</h2>
+    <h2 class="display-6 fw-semibold mb-2 section-heading" id="community-heading"><span class="section-title-icon">{% include ui/section-icon.html name="community" %}</span>Community Engagement</h2>
     <p class="text-muted mb-4">Volunteering, student leadership, and outreach beyond the laboratory.</p>
     <div class="row g-3">
       {% assign extra_pages = site.pages | where: "type", "extra" | sort: "date" | reverse %}
