@@ -1,17 +1,28 @@
-<header class="navbar navbar-expand-lg navbar-light bg-light bg-gradient border-bottom sticky-top">
+<header class="navbar navbar-expand-lg navbar-light border-bottom sticky-top portfolio-header">
   <div class="container">
-    <a class="navbar-brand fw-semibold" href="{{ '/' | relative_url }}">Sreenath K. Potty</a>
+    <a class="navbar-brand portfolio-brand" href="{{ '/' | relative_url }}">
+      <span class="portfolio-brand-mark" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+          <rect x="5.5" y="5.5" width="13" height="13" rx="2"></rect>
+          <path d="M9 9h6v6H9zM9 2v3.5M15 2v3.5M9 18.5V22M15 18.5V22M2 9h3.5M2 15h3.5M18.5 9H22M18.5 15H22"></path>
+        </svg>
+      </span>
+      <span class="portfolio-brand-copy">
+        <span class="portfolio-brand-name">Sreenath K. Potty</span>
+        <span class="portfolio-brand-caption">ELECTRICAL ENGINEER</span>
+      </span>
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-nav" aria-controls="portfolio-nav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <nav class="collapse navbar-collapse" id="portfolio-nav" aria-label="Primary navigation">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="{{ '/#about' | relative_url }}">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ '/#experience' | relative_url }}">Experience</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ '/#projects' | relative_url }}">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ '/#skills' | relative_url }}">Skills</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ '/#essays' | relative_url }}">Certifications</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ '/resume.html' | relative_url }}">CV</a></li>
+      <ul class="navbar-nav ms-auto portfolio-nav-list">
+        <li class="nav-item"><a class="nav-link portfolio-nav-link" href="{{ '/#about' | relative_url }}">About</a></li>
+        <li class="nav-item"><a class="nav-link portfolio-nav-link" href="{{ '/#experience' | relative_url }}">Experience</a></li>
+        <li class="nav-item"><a class="nav-link portfolio-nav-link" href="{{ '/#projects' | relative_url }}">Projects</a></li>
+        <li class="nav-item"><a class="nav-link portfolio-nav-link" href="{{ '/#skills' | relative_url }}">Skills</a></li>
+        <li class="nav-item"><a class="nav-link portfolio-nav-link" href="{{ '/#essays' | relative_url }}">Certifications</a></li>
+        <li class="nav-item"><a class="nav-link portfolio-nav-cv" href="{{ '/resume.html' | relative_url }}">View CV <span aria-hidden="true">↗</span></a></li>
       </ul>
     </nav>
   </div>
