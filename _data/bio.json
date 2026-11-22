@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Sreenath Krishnan Potty",
-    "label": "Electrical Engineer | Power Electronics Packaging | Reliability & Semiconductor Research",
+    "label": "Power Module Packaging | Process Development | Test Automation",
     "picture": "https://github.com/thisissreenath.png",
     "email": "thisissreenath@gmail.com",
     "phone": "",
     "website": "https://thisissreenath.github.io",
-    "summary": "Electrical engineer with a master's degree from Virginia Tech and hands-on research experience in power electronics packaging, electrical insulation evaluation, partial discharge testing, and materials characterization. My work combines experimental testing, engineering analysis, and process development to support reliable electronic systems. My interests include semiconductor technologies, advanced manufacturing, and engineering project management.",
+    "summary": "Electrical engineer with an M.S. from Virginia Tech and hands-on experience in power-module packaging, SiC insulation process development, high-voltage partial-discharge test automation, and prototype assembly. At Virginia Tech CPES, I combine manufacturing process control, electrical characterization, Python automation, and technical documentation to improve experimental repeatability and testing efficiency.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -46,60 +46,66 @@
   ],
   "skills": [
     {
-      "name": "Power Electronics & Packaging",
+      "name": "Power Module Packaging & Assembly",
       "keywords": [
-        "Power Electronics Packaging",
-        "GaN Device Packaging",
-        "Electrical Insulation Characterization",
-        "Encapsulation",
-        "Thermal Design"
+        "SiC and GaN Power-Module Packaging",
+        "Pressureless Sintering",
+        "Soldering & Reflow",
+        "Wire Bonding",
+        "Die Attach",
+        "Nanofoil Bonding",
+        "SMT Assembly",
+        "Encapsulation"
       ]
     },
     {
-      "name": "Testing & Reliability",
+      "name": "Electrical Testing & Reliability",
       "keywords": [
-        "High-Voltage Testing",
-        "Partial Discharge Testing",
-        "Dielectric Strength Testing",
-        "Design of Experiments",
-        "Weibull Analysis",
-        "Experimental Data Analysis"
+        "Partial Discharge Testing (PDIV/PDEV)",
+        "High-Voltage Dielectric Testing",
+        "Profilometry",
+        "Bond Pull & Shear Testing",
+        "Experimental Data Analysis",
+        "Weibull Analysis"
       ]
     },
     {
-      "name": "Fabrication & Materials Processing",
+      "name": "Materials & Process Development",
       "keywords": [
-        "MEMS Fabrication",
-        "Photolithography",
-        "Thin-Film Deposition",
-        "Reactive Ion Etching",
+        "Silicone Gel & Epoxy Potting",
         "Vacuum Degassing",
-        "Thermal Curing"
+        "Controlled Thermal Curing",
+        "Design of Experiments (OFAT)",
+        "Statistical Process Control",
+        "Process Traceability",
+        "Root Cause Analysis"
       ]
     },
     {
-      "name": "Programming & Engineering Software",
+      "name": "Software & Automation",
       "keywords": [
-        "MATLAB",
         "Python",
+        "pyVISA",
+        "MATLAB",
+        "JMP",
+        "SolidWorks",
         "C",
         "Ansys Q3D",
         "LTspice",
-        "Cadence Virtuoso",
         "COMSOL Multiphysics",
-        "JMP",
-        "AutoCAD"
+        "Cadence Virtuoso"
       ]
     },
     {
-      "name": "Engineering & Project Management",
+      "name": "Engineering Documentation & Quality",
       "keywords": [
+        "Manufacturing Travelers",
+        "SOPs & Work Instructions",
+        "ANOVA",
+        "Measurement System Evaluation (MSE)",
         "Technical Documentation",
-        "Process Improvement",
-        "Experimental Planning",
-        "Project Scheduling",
-        "Student Training",
-        "Team Leadership"
+        "Experimental Scheduling",
+        "Student Training"
       ]
     }
   ],
@@ -146,11 +152,13 @@
       "website": "https://cpes.vt.edu/",
       "startDate": "2026-08",
       "endDate": "Present",
-      "summary": "Promoted from Laboratory Assistant while continuing hands-on research in power electronics packaging, dielectric insulation, and encapsulation; expanded responsibilities to student training and laboratory tours.",
+      "summary": "Power-module packaging and insulation process development at Virginia Tech CPES, including controlled experiments, fabrication scheduling, test-process improvement, laboratory equipment troubleshooting, and training.",
       "highlights": [
-        "Continue partial discharge and dielectric insulation testing, materials processing, and experimental data analysis for power electronics packaging research.",
-        "Train incoming students in encapsulation workflows, including specimen preparation, vacuum degassing, curing, and electrical testing procedures.",
-        "Conduct laboratory tours, explaining research activities, equipment, and experimental workflows to visitors."
+        "Designed and executed an eight-factor OFAT study of SiC insulation encapsulation using 16 extreme-condition and 14 nominal coupons; identified variation associated with time to test, degassing duration, and storage.",
+        "Scheduled the 30-coupon fabrication/testing study around a single curing furnace and fixed three-day test intervals; completed it in 2.5 weeks while preserving controlled process timing.",
+        "Restored and calibrated an unused laser engraver, wrote an illustrated operating manual, prepared encapsulation short-course handouts, and trained incoming laboratory members.",
+        "Performed SMT assembly using solder-paste stencil printing, component placement, and conveyor reflow soldering.",
+        "Conduct laboratory tours and explain packaging research, experimental workflows, and laboratory equipment to visitors."
       ],
       "category": "professional"
     },
@@ -160,25 +168,26 @@
       "website": "https://cpes.vt.edu/",
       "startDate": "2024-11",
       "endDate": "2026-08",
-      "summary": "Conducted laboratory fabrication, insulation testing, and experimental analysis for power electronics packaging research.",
+      "summary": "Fabricated and tested encapsulated power-module insulation specimens; developed Python-based partial-discharge automation, laboratory fixtures, documentation, and press-pack prototype assemblies.",
       "highlights": [],
       "category": "professional",
       "projects": [
         {
-          "title": "ONR — Evaluation of Insulation Degradation in 10 kV SiC Power Modules",
+          "title": "10 kV SiC Power-Module Insulation Process Development | ONR",
           "highlights": [
-            "Applied one-factor-at-a-time (OFAT) design of experiments and statistical process analysis, including Shewhart methods and ANOVA, across more than 100 fabrication batches using MATLAB-based logging.",
-            "Developed and deployed an automated high-voltage testing workflow supporting over 3,000 tests and reducing testing cycle time by 46%.",
-            "Designed a laboratory test fixture that reduced fixture cost by 84%, and contributed to repeatable experimental procedures and process documentation.",
-            "Supported technical coordination and recurring progress reviews with a SiC device manufacturer."
+            "Fabricated and electrically tested 100+ batches of encapsulated AMB AlN coupons; developed manufacturing travelers, fabrication SOPs, and automated degassing/curing logs for traceability.",
+            "Developed Python-based high-voltage partial-discharge test automation for voltage ramps, PDIV/PDEV detection, and data logging; reduced estimated cycle time by approximately 60% (~5 to ~2 minutes/test) in a 3,000+-test program.",
+            "Designed and assembled lower-cost dielectric test fixtures, reducing estimated unit cost from ~$100 to ~$17 (~83%).",
+            "Investigated inconsistent partial-discharge measurements using grounded copper shielding; communicated technical findings in biweekly reviews with an industry sponsor."
           ]
         },
         {
-          "title": "ARPA-E ULTRAFAST — E1 Arrester Press-Pack Module Assembly",
+          "title": "Power-Module Prototype Assembly & Characterization | ARPA-E",
           "highlights": [
-            "Assembled press-pack SiC power-module subassemblies using documented manufacturing procedures and lot-level travelers, with 100% post-assembly qualification yield.",
-            "Evaluated package integrity through bond shear testing, thermal-interface-material profilometry, and electrical continuity checks.",
-            "Designed a 3D-printed thermal-interface-material cutting fixture to improve thickness consistency and reduce manual variability during assembly."
+            "Assembled 10 press-pack prototypes using established pressureless sintering, soldering, copper-cap/housing attachment, and encapsulation processes.",
+            "Used profilometry to select conductive thermal-interface-material (TIM) thickness and performed post-assembly electrical resistance checks.",
+            "Proposed and conducted comparative shear testing of tarnished and untarnished posts to evaluate bond strength.",
+            "Designed a 3D-printed TIM cutting fixture to improve preparation consistency."
           ]
         }
       ]
@@ -240,7 +249,7 @@
       "title": "Packaging Engineer - Embedded Package Design of a 100V GaN HEMT Device for EV Applications",
       "organization": "Virginia Polytechnic Institute and State University",
       "period": "2023-01 – 2023-05",
-      "summary": "Designed a GaN HEMT packaging solution that optimized thermal management by 25%, improving electrical performance under high-stress conditions. Conducted electrical and thermal simulations using LTSpice and Ansys Q3D to troubleshoot design flaws and reduce parasitic inductance by 10%. Led the failure analysis testing and validation of the packaging design, including wire bond pull tests, reducing failure rates by 20%."
+      "summary": "Led a four-person embedded-package design study for a 100 V GaN HEMT power converter. Contributed insulator selection and PCB thermal analysis; team simulations achieved 0.488 nH power-loop inductance against a 0.625 nH target. Conducted wedge-bond pull and solder die-attach shear experiments across process settings, assessing failures using MIL-STD-883 methods."
     },
     {
       "title": "Electrical Engineer - Two-Stage Differential Amplifier",
@@ -265,56 +274,57 @@
   ],
   "cvSkills": [
     {
-      "name": "Semiconductor Packaging",
+      "name": "Assembly & Joining",
       "keywords": [
-        "Pressureless Ag sintering",
-        "Die attach",
+        "Pressureless sintering",
+        "Soldering",
+        "Solder reflow",
         "Wire bonding",
-        "Press-pack assembly",
-        "Encapsulation",
-        "Plasma cleaning",
+        "Die attach",
+        "Nanofoil bonding",
+        "SMT assembly",
+        "Press-pack assembly"
+      ]
+    },
+    {
+      "name": "Encapsulation & Adhesives",
+      "keywords": [
+        "Silicone gels/elastomers (SilGel 612, ELASTOSIL 607, NuSil 2188/2613)",
+        "Epoxy potting (DURAPOT 861/863/864, Aremco-Bond 2315)",
+        "Silicone sealants",
         "Vacuum degassing",
-        "AMB AlN substrates"
+        "Controlled thermal curing"
       ]
     },
     {
-      "name": "Package Characterization",
+      "name": "Testing, Process & Quality",
       "keywords": [
+        "High-voltage partial-discharge testing (PDIV/PDEV)",
         "Profilometry",
-        "Digital microscopy",
-        "Bond shear testing",
-        "Wire-bond pull testing",
-        "Die shear testing",
-        "Partial discharge testing",
-        "High-voltage dielectric testing"
-      ]
-    },
-    {
-      "name": "Process & Reliability Methods",
-      "keywords": [
-        "Design of experiments (OFAT)",
-        "Statistical process control",
-        "Shewhart charts",
+        "Bond pull/shear testing",
+        "DOE/OFAT",
         "ANOVA",
-        "FMEA",
+        "Statistical process control (SPC)",
+        "Measurement system evaluation (MSE)",
         "Root cause analysis",
-        "DFx",
+        "Weibull analysis",
         "Manufacturing travelers",
-        "SOP development",
-        "Weibull analysis"
+        "SOPs and work instructions"
       ]
     },
     {
-      "name": "Engineering Software & Programming",
+      "name": "Software & Automation",
       "keywords": [
-        "MATLAB",
         "Python",
+        "pyVISA",
+        "JMP",
+        "MATLAB",
+        "SolidWorks",
         "C",
         "COMSOL Multiphysics",
         "Ansys Q3D",
         "LTspice",
-        "Cadence Virtuoso",
-        "JMP"
+        "Cadence Virtuoso"
       ]
     },
     {
