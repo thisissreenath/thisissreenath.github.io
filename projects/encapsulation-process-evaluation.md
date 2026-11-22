@@ -8,28 +8,30 @@ labels:
   - Electronics Packaging
   - Encapsulation
   - Process Development
-summary: "Hands-on preparation and process evaluation of encapsulation materials used in power electronics packaging research at Virginia Tech CPES."
+summary: "Executed an eight-factor OFAT encapsulation study with 30 controlled SiC insulation coupons and developed traceable fabrication, curing, and testing workflows."
 ---
 
 ## Overview
 
-Encapsulation helps protect electrical components and insulation structures. Consistent material preparation and processing are important for meaningful testing and reliable assembly.
+Reliable power-module insulation depends on the material formulation and the preparation, degassing, curing, storage, and testing sequence. At Virginia Tech CPES, I fabricated encapsulated **AMB AlN coupons** and evaluated process variation in an **ONR-supported 10 kV SiC insulation** program.
 
-At the Center for Power Electronics Systems (CPES), Virginia Tech, I work with encapsulation materials and investigate how preparation and curing workflows affect specimen consistency.
+## Experimental study
 
-## My contributions
+- Designed and executed an **eight-factor one-factor-at-a-time (OFAT)** study comprising **16 extreme-condition** and **14 nominal-condition** coupons.
+- Identified variation associated with **time to test, degassing duration, and storage**.
+- Planned fabrication and electrical testing around **one curing furnace** and a **fixed three-day interval before testing** to avoid schedule-driven changes in specimen conditions. Completed the 30-coupon study in **2.5 weeks** while maintaining controlled timing.
 
-- Prepare silicone gel and epoxy specimens, including material handling, mixing, mold preparation, and dispensing.
-- Carry out **vacuum degassing** and **controlled thermal curing** as part of laboratory preparation procedures.
-- Monitor and document processing conditions to support consistent experimental batches and comparison across tests.
-- Use **MATLAB-based measurement logging** and temperature measurement tools to support process observation and recordkeeping.
-- Develop procedural documentation and train new laboratory students in encapsulation preparation and relevant testing workflows.
+## Fabrication and documentation
+
+- Fabricated and tested **100+ batches** of encapsulated insulation specimens across the broader program.
+- Worked with silicone gels and elastomers including **SilGel 612, ELASTOSIL 607, and NuSil 2188/2613**, as well as epoxy potting systems including **DURAPOT 861/863/864 and Aremco-Bond 2315**.
+- Developed **manufacturing travelers, fabrication SOPs, and automated degassing/curing logs** for process traceability.
+- Prepared encapsulation short-course handouts and trained new laboratory members.
 
 ## Methods and tools
 
-Encapsulation · Materials handling · Vacuum degassing · Thermal curing · Temperature monitoring · MATLAB · Process documentation
+DOE/OFAT · Mixing and potting · Vacuum degassing · Controlled curing · Manufacturing travelers · SOPs · Experimental scheduling · Process traceability
 
 ## What this work demonstrates
 
-Practical materials processing, experimental process control, technical documentation, and training in repeatable laboratory procedures.
-
+Experimental process development with tightly controlled fabrication variables, equipment scheduling, technical documentation, and hands-on materials processing.
