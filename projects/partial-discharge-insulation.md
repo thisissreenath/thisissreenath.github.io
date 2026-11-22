@@ -8,26 +8,24 @@ labels:
   - Power Electronics
   - Partial Discharge
   - Dielectric Reliability
-summary: "Experimental investigation of insulation behavior and partial discharge characteristics for power electronics packaging research at Virginia Tech CPES."
+summary: "Developed Python-based high-voltage partial-discharge test automation for SiC-module insulation research, supporting a 3,000+-test program and reducing estimated cycle time by ~60%."
 ---
 
 ## Overview
 
-Electrical insulation reliability is an important consideration in power electronics packaging. At the Center for Power Electronics Systems (CPES), Virginia Tech, I contribute to experimental characterization of insulation materials and test specimens under high-voltage stress.
+At Virginia Tech's Center for Power Electronics Systems (CPES), I worked on high-voltage electrical insulation characterization for **10 kV SiC power-module research**, including partial-discharge inception and extinction measurements on encapsulated AMB AlN test coupons.
 
 ## My contributions
 
-- Prepare specimens and configure laboratory test setups for dielectric strength and partial discharge measurements.
-- Use the **OMICRON MPD600** partial discharge measurement system and **Phoenix dielectric test equipment** to record and examine electrical responses.
-- Analyze partial discharge inception and extinction behavior, including distinguishing sustained activity from isolated measurement events.
-- Use **MATLAB** to process test data, compare runs, visualize measurements, and support traceable experiment records.
-- Support reliability analysis and repeatability assessments using structured test documentation and statistical methods.
+- **Automated partial-discharge testing with Python:** developed a workflow for voltage ramp control, **PDIV/PDEV detection**, and results logging. Estimated test cycle time decreased from approximately **5 to 2 minutes per test (~60%)** within a **3,000+-test program**.
+- Fabricated and electrically characterized specimens as part of a **100+-batch** encapsulation/testing program.
+- Investigated inconsistent measurements using **grounded copper shielding** and documented findings for **biweekly technical reviews with an industry sponsor**.
+- Used dielectric testing equipment and the **OMICRON MPD 600** partial-discharge system; supported analysis of inception/extinction behavior and reproducibility.
 
 ## Methods and tools
 
-High-voltage testing · Partial discharge measurement · Dielectric strength evaluation · MATLAB · Experimental data analysis · Test documentation
+Python · pyVISA · Voltage ramp automation · PDIV/PDEV · High-voltage dielectric testing · OMICRON MPD 600 · Process traceability · Data logging
 
 ## What this work demonstrates
 
-Hands-on electrical testing, interpretation of experimental measurements, and development of repeatable characterization workflows.
-
+Test automation integrating laboratory hardware, measurement logic, troubleshooting, and repeatable experimental characterization.
